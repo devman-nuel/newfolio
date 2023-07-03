@@ -1,0 +1,21 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-link {
+    color: #000;
+}
