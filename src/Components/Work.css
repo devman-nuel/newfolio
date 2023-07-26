@@ -1,0 +1,177 @@
+.work{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.work h2{
+    font-size: 48px;
+    font-family:'Satoshi-Bold';
+}
+
+.work h4{
+    margin-top: 5px;
+    font-size: 28px;
+    font-family:'Satoshi-Bold';
+    color: #5e5c5c;
+}
+
+.work-con{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 70px;
+}
+
+.work-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+.work-text h2{
+    font-size: 24px;
+    font-family:'Satoshi-Bold';
+}
+
+.work-text p{
+    font-size: 18px;
+    font-family:'Satoshi-Medium';
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.credits span{
+    font-size: 18px;
+    font-family:'Satoshi-Medium';
+}
+
+.credits-con{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.credits-con div button{
+    font-family:'Satoshi-Medium';
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.credits-con div p{
+    margin-top: 3px;
+}
+
+
+.work-img{
+    display: flex;
+    flex-basis: 55%;
+    gap: 20px;
+}
+
+.work-img img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.secondary-img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.secondary-img img{
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:900px){
+    .work{
+        margin-top: 50px;
+    }
+
+    .work-con{
+        margin-top: 30px;     
+     }
+
+    .work-box{
+        flex-direction: column;
+    }
+
+    .work h2{
+        font-size: 28px;
+        font-family:'Satoshi-Bold';
+    }
+
+
+    .work h4{
+        margin-top: 5px;
+        font-size: 24px;
+        font-family:'Satoshi-Bold';
+        color: #5e5c5c;
+    }
+    
+    .work-text{
+        flex-basis: 100%;
+    }
+
+    .work-text h2{
+        font-size: 20px;
+        font-family:'Satoshi-Bold';
+    }
+
+    .work-text p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    
+    
+    .work-img{
+        margin-top: 30px;
+        flex-direction: column;
+        flex-basis: 100%;
+        gap: 20px;
+    }
+
+    .work-img img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .secondary-img {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .secondary-img img{
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        width: 100px;
+        height: 60px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    
+}

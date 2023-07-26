@@ -1,0 +1,55 @@
+
+.marquee{
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.offerline{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-top: 2px solid #3f3f3f;
+    border-bottom: 2px solid #3f3f3f;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.offerline-marquee{
+    background: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+
+}
+
+.offerline-marquee p{
+    background: #fff;
+    display: inline-block;
+    font-family:'Satoshi-Medium';
+    font-size: 16px; 
+}
+
+
+@keyframes marquee{
+    0%{
+        transform: translate3d(0px, 0px, 0px);
+    }
+    100%{
+        transform: translate3d(-50%, 0px, 0px);
+    }
+}
+
+@media(max-width:768px){
+     .offerline-marquee p{ 
+         font-size: 12px; 
+     }
+
+        
+    .offerline{
+        padding: 10px 0;
+    }
+        
+ }
