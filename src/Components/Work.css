@@ -100,6 +100,15 @@
     cursor: pointer;
 }
 
+.secondary-img button{
+    font-family:'Satoshi-Medium';
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer; 
+}
+
 
 @media screen and (max-width:900px){
     .work{

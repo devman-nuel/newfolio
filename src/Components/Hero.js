@@ -15,7 +15,7 @@ function Hero() {
           </div>
 
           <div className='more-right'>
-            <p>My name is Emmanuel and I am passionate about solving problems with code and great designs
+            <p>My name is Emmanuel and I am passionate about solving problems with code and design
             </p>
           </div>
         </div>  

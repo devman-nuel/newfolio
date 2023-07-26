@@ -70,7 +70,8 @@ function Work() {
               <img src={images[1]} className="sec" alt="" onClick={e=>setSelectedImg(1)} />   
               <img src={images[2]} className="sec" alt="" onClick={e=>setSelectedImg(2)} />   
               <img src={images[3]} className="sec" alt="" onClick={e=>setSelectedImg(3)} />   
-              <img src={images[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} />   
+              <img src={images[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} />  
+              <button>Visit Site</button> 
               </div>
             </div>
         </div>
@@ -117,7 +118,8 @@ function Work() {
               <img src={Frontax[1]} className="sec" alt="" onClick={e=>setSelectedImg(1)} />   
               <img src={Frontax[2]} className="sec" alt="" onClick={e=>setSelectedImg(2)} />   
               <img src={Frontax[3]} className="sec" alt="" onClick={e=>setSelectedImg(3)} />   
-              <img src={Frontax[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} />   
+              <img src={Frontax[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} /> 
+              <button>Visit Site</button>   
               </div>
             </div>
         </div>
