@@ -42,12 +42,7 @@
     }
 }
 
-@media(max-width:768px){
-     .offerline-marquee p{ 
-         font-size: 12px; 
-     }
-
-        
+@media(max-width:768px){       
     .offerline{
         padding: 10px 0;
     }

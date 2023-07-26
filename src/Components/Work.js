@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Work.css';
-import WorkImg from "./Images/Webstore2.png";
-import Lone from "./Images/Lone Therapy.png";
 
 
 function Work() {
+    const[selectedImg,setSelectedImg] = useState(0);
+ 
+    const images = [
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690404646/Webstore2_vdqchf.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690404799/Webstore1_ris6aa.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690404660/Webstore4_eqdlwz.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690404631/Webstore3_mjblus.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690405184/Webstore5_dxoj0f.png"  
+    ]
+    
+    const Frontax = [
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690406670/Frontax1_qvpugh.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690406874/Frontax5_rzwkue.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690406865/Frontax4_jk9m34.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690406851/Frontax2_qj04u6.png",
+      "https://res.cloudinary.com/dxnukbo0u/image/upload/v1690406853/Frontax3_uynupr.png"
+     
+    ]
     
   return (
     <div className='work'>
@@ -46,15 +62,15 @@ function Work() {
 
             <div className='work-img'>
               <div className='primary-img'>
-               <img src={WorkImg} className="download" alt="" /> 
+               <img src={images[selectedImg]} className="pry" alt="" />
               </div>
 
               <div className='secondary-img'>
-                <img src={WorkImg} className="download" alt="" /> 
-                <img src={WorkImg} className="download" alt="" /> 
-                <img src={WorkImg} className="download" alt="" /> 
-                <img src={WorkImg} className="download" alt="" /> 
-                <img src={WorkImg} className="download" alt="" /> 
+              <img src={images[0]} className="sec" alt="" onClick={e=>setSelectedImg(0)}/>
+              <img src={images[1]} className="sec" alt="" onClick={e=>setSelectedImg(1)} />   
+              <img src={images[2]} className="sec" alt="" onClick={e=>setSelectedImg(2)} />   
+              <img src={images[3]} className="sec" alt="" onClick={e=>setSelectedImg(3)} />   
+              <img src={images[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} />   
               </div>
             </div>
         </div>
@@ -93,15 +109,15 @@ function Work() {
 
             <div className='work-img'>
               <div className='primary-img'>
-               <img src={Lone} className="download" alt="" /> 
+               <img src={Frontax[selectedImg]} className="pry" alt="" />
               </div>
 
               <div className='secondary-img'>
-                <img src={Lone} className="download" alt="" /> 
-                <img src={Lone} className="download" alt="" /> 
-                <img src={Lone} className="download" alt="" /> 
-                <img src={Lone} className="download" alt="" /> 
-                <img src={Lone} className="download" alt="" /> 
+              <img src={Frontax[0]} className="sec" alt="" onClick={e=>setSelectedImg(0)}/>
+              <img src={Frontax[1]} className="sec" alt="" onClick={e=>setSelectedImg(1)} />   
+              <img src={Frontax[2]} className="sec" alt="" onClick={e=>setSelectedImg(2)} />   
+              <img src={Frontax[3]} className="sec" alt="" onClick={e=>setSelectedImg(3)} />   
+              <img src={Frontax[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} />   
               </div>
             </div>
         </div>
