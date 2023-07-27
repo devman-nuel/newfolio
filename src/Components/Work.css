@@ -172,7 +172,15 @@
         gap: 20px;
     }
 
- 
+    .secondary-img img{
+        padding: 5px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        width: 100px;
+        height: 60px;
+        object-fit: cover;
+        cursor: pointer;
+    }
     
     
 }
