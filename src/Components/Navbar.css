@@ -31,7 +31,7 @@
 }
 
 .CV{
-    display: flex;
+    display: none;
     align-items: center;
     font-family:'Satoshi-Medium'; 
 }
@@ -42,7 +42,8 @@
 }
 
 @media screen and (max-width:900px){
-    .nav-links{
-        display: none;
-    }
+   
+.nav-links{
+    gap: 30px;
+} 
 }

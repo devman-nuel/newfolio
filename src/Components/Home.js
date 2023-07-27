@@ -14,7 +14,6 @@ function Home() {
        <Marquee />
        <Work />
        <Cta />
-       <hr></hr>
     </div>
   )
 }

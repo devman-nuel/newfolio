@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import transition from '../transition'
 import './Work.css';
 
 
@@ -24,7 +25,7 @@ function Work() {
     
   return (
     <div className='work'>
-        <h2>Selected Works</h2>
+        <h2>Selected Works(4)</h2>
         <h4>'22 - Present</h4>
 
       <div className='work-con'>
@@ -129,4 +130,4 @@ function Work() {
   )
 }
 
-export default Work;
+export default transition(Work)

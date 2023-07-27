@@ -1,0 +1,131 @@
+.stack{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.stack span{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family:'Satoshi-Bold';
+    text-align: center; 
+}
+
+.stack-box{
+  width: 60%;  
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.stack-box p{
+    font-size: 24px;
+    font-family:'Satoshi-Medium';
+    text-align: center;
+}
+
+.job{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;  
+}
+
+.job span{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family:'Satoshi-Bold';
+    text-align: center; 
+}
+
+.job-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.job-left{
+    flex-basis: 45%;
+}
+
+.design span{
+    color: #3b3b3b;  
+}
+
+.design p{
+    font-size: 24px;
+    font-family:'Satoshi-Medium';  
+    margin-top: 10px;
+}
+
+.development{
+    margin-top: 60px;
+}
+
+
+.development span{
+    color: #3b3b3b;  
+}
+
+.development p{
+    font-size: 24px;
+    font-family:'Satoshi-Medium';  
+    margin-top: 10px;
+}
+
+.interest{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.interest span{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family:'Satoshi-Bold';
+    text-align: center; 
+}
+
+.interest-box{
+  width: 60%;  
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.interest-box p{
+    font-size: 24px;
+    font-family:'Satoshi-Medium';
+    text-align: center;
+}
+
+@media screen and (max-width:900px){
+    .stack-box{
+        width: 80%;  
+        margin: 0 auto;
+        margin-top: 30px;
+    } 
+
+    .job{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;  
+    }
+
+    .job-left{
+        flex-basis: 100%;
+    }
+
+    .interest{
+        margin-top: 50px;
+    }
+
+    .interest-box{
+        width: 80%;  
+        margin: 0 auto;
+      }
+
+    
+}

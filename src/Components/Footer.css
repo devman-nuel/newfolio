@@ -15,13 +15,16 @@
 
 .fliptext{
     font-family:'Satoshi-Medium';
+    font-size: 14px;
     color: #000;
     position: relative;
     display: inline-block;
-    padding: 0;    
+    padding: 5px;    
     transition: transform 0.3s;
     transform-origin: 50% 0;
     transform-style: preserve-3d;
+    border: 1px solid #000;
+    border-radius: 20px;
  }
 
  .fliptext:before {
@@ -30,12 +33,18 @@
     left: 0;
     width: 100%;
     height: 100%;
-    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #000;
     content: attr(data-hover);
     transition: color 0.5s;
     transform: rotateX(-90deg);
     transform-origin: 50% 0;
     text-align: center;
+    border: 1px solid #000;
+    border-radius: 20px;
   }
 
   .fliptext:hover{
@@ -45,6 +54,7 @@
   .copyright span{
     font-family:'Satoshi-Medium';
     color: #000;
+    font-size: 14px;
   }
   
 
