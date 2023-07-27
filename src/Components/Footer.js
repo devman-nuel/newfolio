@@ -9,7 +9,7 @@ function Footer() {
       <div className='footer-con'>
         <div className='footer-links'>
           <Link className='fliptext' data-hover="GITHUB" to="https://github.com/vibeauratech">GITHUB</Link>
-          <Link className='fliptext' data-hover="LINKEDIN" to="https://www.linkedin.com/in/emmanuel-akharia-7a8ab0245/">lINKEDIN</Link>
+          <Link className='fliptext' data-hover="LINKEDIN" to="https://www.linkedin.com/in/emmanuel-akharia-7a8ab0245/">LINKEDIN</Link>
           <Link className='fliptext' data-hover="TWITTER" to="https://twitter.com/nuel_dev">TWITTER</Link>
           <Link className='fliptext' data-hover="BEHANCE" to="/">BEHANCE</Link>
         </div>
