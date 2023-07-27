@@ -1,0 +1,29 @@
+.cta{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cta span{
+    font-size: 24px;
+    font-family:'Satoshi-Medium'; 
+}
+.cta h2{
+    font-size: 136px;
+    font-family:'Satoshi-Bold';
+}
+
+@media screen and (max-width:900px){
+    .cta{
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .cta span{
+        font-size: 16px;
+        font-family:'Satoshi-Medium'; 
+    }
+    .cta h2{
+        font-size: 56px;
+        font-family:'Satoshi-Bold';
+    }
+}

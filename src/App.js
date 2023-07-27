@@ -2,6 +2,7 @@ import './App.css';
 import {Routes, Route, useLocation} from "react-router-dom"
 
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 import Home from './Components/Home'
 import About from './Components/About'
 import Project from './Components/Project'
@@ -22,6 +23,7 @@ function App() {
           <Route path='/project' element={<Project />}></Route>        
         </Routes>
       </AnimatePresence>
+      <Footer />
       </>
     </div>
   );

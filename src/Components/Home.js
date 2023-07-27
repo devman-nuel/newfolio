@@ -4,6 +4,7 @@ import './Home.css';
 import Hero from './Hero';
 import Work from './Work';
 import Marquee from './Marquee';
+import Cta from './Cta';
 
 
 function Home() {
@@ -12,6 +13,8 @@ function Home() {
        <Hero />
        <Marquee />
        <Work />
+       <Cta />
+       <hr></hr>
     </div>
   )
 }
