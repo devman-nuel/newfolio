@@ -46,7 +46,50 @@ function About() {
             <p> Music, Art, Creative Development, Football, 3d Design
             </p>
           </div>
-        </div>    
+        </div>  
+
+        <div className='Marquee'>
+        <div className="Offerline">
+                <div className="Offerline-marquee">
+                    <p> CONTACT ME   &nbsp;&nbsp;
+                        CONTACT ME      &nbsp;&nbsp;
+                        CONTACT ME    &nbsp;&nbsp; 
+                    </p>
+
+                   
+
+                    <p> CONTACT ME   &nbsp;&nbsp;
+                        CONTACT ME      &nbsp;&nbsp;
+                        CONTACT ME    &nbsp;&nbsp; 
+                    </p>  
+
+                   
+
+                    <p> CONTACT ME   &nbsp;&nbsp;
+                        CONTACT ME      &nbsp;&nbsp;
+                        CONTACT ME    &nbsp;&nbsp; 
+                    </p> 
+
+                    <p> CONTACT ME  &nbsp;&nbsp;
+                        CONTACT ME      &nbsp;&nbsp;
+                        CONTACT ME    &nbsp;&nbsp; 
+                    </p> 
+
+
+                    <p> CONTACT ME  &nbsp;&nbsp;
+                        CONTACT ME     &nbsp;&nbsp;
+                        CONTACT ME    &nbsp;&nbsp; 
+                    </p>  
+
+                   
+
+                    <p> CONTACT ME   &nbsp;&nbsp;
+                        CONTACT ME      &nbsp;&nbsp;
+                        CONTACT ME    &nbsp;&nbsp; 
+                    </p>  
+                </div>
+            </div>
+        </div>  
     </div>
   )
 }

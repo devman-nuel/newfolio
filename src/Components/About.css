@@ -100,6 +100,66 @@
     text-align: center;
 }
 
+.Marquee{
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.Offerline{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.Offerline-marquee{
+    background: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 60s linear infinite;
+}
+
+.Offerline-marquee p{
+    background: #fff;
+    display: inline-block;
+    font-family:'Satoshi-Bold';
+    font-size: 126px; 
+}
+
+
+@keyframes Marquee{
+    0%{
+        transform: translate3d(0px, 0px, 0px);
+    }
+    100%{
+        transform: translate3d(-50%, 0px, 0px);
+    }
+}
+
+@media(max-width:768px){ 
+    .Marquee{
+        margin-top: 50px;
+    }
+    
+    .Offerline{
+        padding: 10px 0;
+    }
+
+    .Offerline-marquee p{
+        background: #fff;
+        display: inline-block;
+        font-family:'Satoshi-Bold';
+        font-size: 64px; 
+    }
+        
+ }
+
 @media screen and (max-width:900px){
     .stack-box{
         width: 80%;  
@@ -125,7 +185,5 @@
     .interest-box{
         width: 80%;  
         margin: 0 auto;
-      }
-
-    
+      }   
 }
