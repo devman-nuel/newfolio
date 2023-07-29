@@ -77,7 +77,7 @@ function Projects() {
         <div className='Marquee'>
           <div className="Offerline">
                   <div className="Offerline-marquee">
-                      <img src={images[0]} className="" alt="" />
+                     <img src={images[0]} className="" alt="" />
                       &nbsp;&nbsp;
                       &nbsp;&nbsp;
                       &nbsp;&nbsp;
@@ -102,12 +102,12 @@ function Projects() {
                       &nbsp;&nbsp;
                       &nbsp;&nbsp;
                       &nbsp;&nbsp;  
-                      <img src={images[5]} className="" alt="" />    
+                      <img src={images[5]} className="" alt="" /> 
+
                       &nbsp;&nbsp;
-                      &nbsp;&nbsp;
-                      &nbsp;&nbsp;
-                      &nbsp;&nbsp;    
+                      
                       <img src={images[0]} className="" alt="" />
+                      &nbsp;&nbsp;
                       &nbsp;&nbsp;
                       &nbsp;&nbsp;
                       &nbsp;&nbsp;

@@ -33,6 +33,7 @@
 
 .project-box span{
     background: transparent;
+    padding: 0;
     color: #3b3b3b;
     font-size: 24px;
     font-family:'Satoshi-Bold';
@@ -73,6 +74,7 @@
     font-size: 24px;
     font-family:'Satoshi-Bold';
     margin-top: 20px;
+    padding: 0;
 }
 
 .plugins{
@@ -109,6 +111,7 @@
     font-size: 24px;
     font-family:'Satoshi-Bold';
     margin-top: 20px;
+    padding: 0;
 }
 
 .Offerline-marquee img{
