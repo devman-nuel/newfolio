@@ -44,11 +44,19 @@
     flex-basis: 40%;
 }
 
-.more-right p{   
+.more-right p{ 
+    margin-bottom: 5px;  
   font-size: 28px;
   font-family:'Satoshi-Medium';
   color: #5e5c5c;
 }
+
+.more-right span{
+    color: #5e5c5c;
+    font-family:'Satoshi-Medium'; 
+    border: 1px solid #5e5c5c;
+}
+
 
 @media screen and (max-width:900px){
     .hero-con h2{

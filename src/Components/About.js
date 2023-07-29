@@ -26,7 +26,7 @@ function About() {
               </div>
 
               <div className='development'>
-                <span>Front-End Development</span>
+                <span>Front-End Development / Engineering</span>
                 <p> User Interface Architecture, Mobile Responsiveness, Web Performance, Security, Testing 
                     & Automation, Scalability, User Authentication, Payment Integration, API Integration, Web Animations
                 </p>
@@ -49,46 +49,46 @@ function About() {
         </div>  
 
         <div className='Marquee'>
-        <div className="Offerline">
-                <div className="Offerline-marquee">
-                    <p> CONTACT ME   &nbsp;&nbsp;
-                        CONTACT ME      &nbsp;&nbsp;
-                        CONTACT ME    &nbsp;&nbsp; 
-                    </p>
+          <div className="Offerline">
+                  <div className="Offerline-marquee">
+                      <p> CONTACT ME   &nbsp;&nbsp;
+                          CONTACT ME      &nbsp;&nbsp;
+                          CONTACT ME    &nbsp;&nbsp; 
+                      </p>
 
-                   
+                    
 
-                    <p> CONTACT ME   &nbsp;&nbsp;
-                        CONTACT ME      &nbsp;&nbsp;
-                        CONTACT ME    &nbsp;&nbsp; 
-                    </p>  
+                      <p> CONTACT ME   &nbsp;&nbsp;
+                          CONTACT ME      &nbsp;&nbsp;
+                          CONTACT ME    &nbsp;&nbsp; 
+                      </p>  
 
-                   
+                    
 
-                    <p> CONTACT ME   &nbsp;&nbsp;
-                        CONTACT ME      &nbsp;&nbsp;
-                        CONTACT ME    &nbsp;&nbsp; 
-                    </p> 
+                      <p> CONTACT ME   &nbsp;&nbsp;
+                          CONTACT ME      &nbsp;&nbsp;
+                          CONTACT ME    &nbsp;&nbsp; 
+                      </p> 
 
-                    <p> CONTACT ME  &nbsp;&nbsp;
-                        CONTACT ME      &nbsp;&nbsp;
-                        CONTACT ME    &nbsp;&nbsp; 
-                    </p> 
+                      <p> CONTACT ME  &nbsp;&nbsp;
+                          CONTACT ME      &nbsp;&nbsp;
+                          CONTACT ME    &nbsp;&nbsp; 
+                      </p> 
 
 
-                    <p> CONTACT ME  &nbsp;&nbsp;
-                        CONTACT ME     &nbsp;&nbsp;
-                        CONTACT ME    &nbsp;&nbsp; 
-                    </p>  
+                      <p> CONTACT ME  &nbsp;&nbsp;
+                          CONTACT ME     &nbsp;&nbsp;
+                          CONTACT ME    &nbsp;&nbsp; 
+                      </p>  
 
-                   
+                    
 
-                    <p> CONTACT ME   &nbsp;&nbsp;
-                        CONTACT ME      &nbsp;&nbsp;
-                        CONTACT ME    &nbsp;&nbsp; 
-                    </p>  
-                </div>
-            </div>
+                      <p> CONTACT ME   &nbsp;&nbsp;
+                          CONTACT ME      &nbsp;&nbsp;
+                          CONTACT ME    &nbsp;&nbsp; 
+                      </p>  
+                  </div>
+              </div>
         </div>  
     </div>
   )

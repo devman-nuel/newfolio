@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import transition from '../transition'
 import './Work.css';
+import {Link} from "react-router-dom"
 
 
 function Work() {
@@ -46,12 +47,12 @@ function Work() {
 
                     <div className='credits-con'>
                         <div>
-                            <button>Design</button>
+                            <h4>Design</h4>
                             <p>Nueldev</p>
                         </div>
 
                         <div>
-                            <button>Development</button>
+                            <h4>Development</h4>
                             <p>Nueldev</p>
                         </div>
                     </div>
@@ -72,7 +73,7 @@ function Work() {
               <img src={images[2]} className="sec" alt="" onClick={e=>setSelectedImg(2)} />   
               <img src={images[3]} className="sec" alt="" onClick={e=>setSelectedImg(3)} />   
               <img src={images[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} />  
-              <button>Visit Site</button> 
+              <button className='fliptext' data-hover="Visit Site">Visit Site</button> 
               </div>
             </div>
         </div>
@@ -94,12 +95,12 @@ function Work() {
 
                     <div className='credits-con'>
                         <div>
-                            <button>Design</button>
+                            <h4>Design</h4>
                             <p> David Alonge</p>
                         </div>
 
                         <div>
-                            <button>Development</button>
+                            <h4>Development</h4>
                             <p>Nueldev</p>
                         </div>
                     </div>
@@ -120,12 +121,15 @@ function Work() {
               <img src={Frontax[2]} className="sec" alt="" onClick={e=>setSelectedImg(2)} />   
               <img src={Frontax[3]} className="sec" alt="" onClick={e=>setSelectedImg(3)} />   
               <img src={Frontax[4]} className="sec" alt="" onClick={e=>setSelectedImg(4)} /> 
-              <button>Visit Site</button>   
+              <button className='fliptext' data-hover="Visit Site">Visit Site</button>  
               </div>
             </div>
         </div>
-
       </div>
+
+     <div className='more-dir'>
+     <Link className='nav-link' to="/projects"><button>More Works</button> </Link>
+     </div>
     </div>
   )
 }
