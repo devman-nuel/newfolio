@@ -187,6 +187,14 @@
         flex-basis: 100%;
     }
 
+    .design {
+        text-align: center;
+    }
+
+    .development{
+        text-align: center; 
+    }
+
     .interest{
         margin-top: 50px;
     }
@@ -194,5 +202,5 @@
     .interest-box{
         width: 80%;  
         margin: 0 auto;
-      }   
+    }   
 }
