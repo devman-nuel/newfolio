@@ -22,10 +22,6 @@ function Projects() {
               <div className='project-box'>
                 <div>
                    <p>NuelWebstore</p>
-                   <div className='expand'>
-                     <button className='fliptext' data-hover="Visit Site">Visit Site</button>
-                     <button className='fliptext' data-hover="Collapse">Collapse</button>
-                   </div>
                 </div>
                 <span>Ecommerce</span>
               </div>
