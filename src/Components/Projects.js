@@ -20,7 +20,13 @@ function Projects() {
 
             <div className='project-con'>
               <div className='project-box'>
-                <p>NuelWebstore</p>
+                <div>
+                   <p>NuelWebstore</p>
+                   <div className='expand'>
+                     <button className='fliptext' data-hover="Visit Site">Visit Site</button>
+                     <button className='fliptext' data-hover="Collapse">Collapse</button>
+                   </div>
+                </div>
                 <span>Ecommerce</span>
               </div>
 

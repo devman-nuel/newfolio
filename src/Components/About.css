@@ -41,12 +41,18 @@
 .job-box{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .job-left{
     flex-basis: 45%;
+}
+
+.headphone{
+    width: 70%;
+    margin-left: 100px;
 }
 
 .design span{
@@ -171,6 +177,10 @@
         margin: 0 auto;
         margin-top: 50px;
         text-align: center;  
+    }
+
+    .job-box{
+        flex-direction: column;
     }
 
     .job-left{

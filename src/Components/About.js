@@ -34,6 +34,7 @@ function About() {
             </div>
 
             <div className='job-right'>
+         
 
             </div>
         </div>

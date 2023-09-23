@@ -37,7 +37,7 @@ function Work() {
                     <p>An ecommerce web project for a fictional fashion brand. <br></br> <br></br>
 
                      Design Tool : Figma   <br></br> <br></br>
-                     Built with : React, Redux Tool-Kit, MongoDB, Node JS, Stripe, Paystack and GSAP for animations. <br></br> <br></br> 
+                     Built with : React, Redux Tool-Kit, MongoDB, Node JS, Stripe, Paystack API and GSAP for animations. <br></br> <br></br> 
                      Features : User-Authentication, Payment Integration, API Integration, Search & Filter.
                     </p>
                 </div>

@@ -3,11 +3,13 @@ import {Routes, Route, useLocation} from "react-router-dom"
 
 import Navbar from './Components/Navbar'
 import Hr from './Components/Hr'
+import ScrollTop from './Components/Scrolltop'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import { AnimatePresence } from 'framer-motion';
+
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      <ScrollTop />
       <>
        <Navbar />
       <AnimatePresence mode='wait'>

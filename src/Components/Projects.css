@@ -8,6 +8,16 @@
     margin-top: 30px;
 }
 
+.expand{
+    display: flex;
+    gap: 20px;
+}
+
+.expand button{
+    background: #fff;
+    cursor: pointer;
+}
+
 .web-apps span{
     background: #000;
     padding: 15px 25px;
