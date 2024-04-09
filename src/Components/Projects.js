@@ -20,14 +20,14 @@ function Projects() {
 
             <div className='project-con'>
               <div className='project-box'>
-                <div>
-                   <p>NuelWebstore</p>
+                <div >
+                   <p data-animation="paragraph" >NuelWebstore</p>
                 </div>
                 <span>Ecommerce</span>
               </div>
 
               <div className='project-box'>
-                <p>Frontax</p>
+                <p data-animation="paragraph">Frontax</p>
                 <span>Web3</span>
               </div>
             </div>
@@ -38,17 +38,17 @@ function Projects() {
 
             <div className='project-con'>
               <div className='website-box'>
-                <p>Stally</p>
+                <p data-animation="paragraph" >Stally</p>
                 <span>Fintech</span>
               </div>
 
               <div className='website-box'>
-                <p>WildAfrica</p>
+                <p data-animation="paragraph">WildAfrica</p>
                 <span>Documentary</span>
               </div>
 
               <div className='website-box'>
-                <p>Druidbikes</p>
+                <p  data-animation="paragraph">Druidbikes</p>
                 <span>Sports</span>
               </div>
             </div>
@@ -59,17 +59,17 @@ function Projects() {
 
             <div className='project-con'>
               <div className='plugin-box'>
-                <p>Undecided</p>
+                <p data-animation="paragraph" >Undecided</p>
                 <span>Chrome Extension</span>
               </div>
 
               <div className='plugin-box'>
-                <p>Undecided</p>
+                <p data-animation="paragraph" >Undecided</p>
                 <span>Vs Code Extension</span>
               </div>
 
               <div className='plugin-box'>
-                <p>Undecided</p>
+                <p data-animation="paragraph">Undecided</p>
                 <span>Figma Plugin</span>
               </div>
             </div>

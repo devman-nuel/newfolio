@@ -26,15 +26,15 @@ function Work() {
     
   return (
     <div className='work'>
-        <h2>Selected Works(4)</h2>
+        <h2 data-animation="header">Selected Works(4)</h2>
         <h4>'22 - Present</h4>
 
       <div className='work-con'>
         <div className='work-box'>
             <div className='work-text'>
                 <div>
-                    <h2>Nuelwebstore</h2>
-                    <p>An ecommerce web project for a fictional fashion brand. <br></br> <br></br>
+                    <h2 >Nuelwebstore</h2>
+                    <p>An ecommerce web project for a online clothing store. <br></br> <br></br>
 
                      Design Tool : Figma   <br></br> <br></br>
                      Built with : React, Redux Tool-Kit, MongoDB, Node JS, Stripe, Paystack API and GSAP for animations. <br></br> <br></br> 

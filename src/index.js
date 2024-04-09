@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom" 
+import "splitting/dist/splitting.css";
+import "splitting/dist/splitting-cells.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

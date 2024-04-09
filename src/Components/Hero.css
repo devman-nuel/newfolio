@@ -10,10 +10,17 @@
 }
 
 .hero-con h2{
-    font-size: 136px;
+    font-size: 156px;
     line-height: 136px;
     font-family:'Satoshi-Bold';
 }
+
+.splitting .word {
+    font-size: 136px;
+    font-family:'Satoshi-Bold';
+    color: #000;
+}
+
 
 .more-bio{
     margin-top: 30px;
@@ -49,6 +56,8 @@
   font-size: 28px;
   font-family:'Satoshi-Medium';
   color: #5e5c5c;
+  border: none;
+  outline: none;
 }
 
 .more-right span{

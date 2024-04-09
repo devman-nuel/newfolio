@@ -1,5 +1,6 @@
 import './App.css';
-import {Routes, Route, useLocation} from "react-router-dom"
+import {Routes, Route, useLocation} from "react-router-dom";
+
 
 import Navbar from './Components/Navbar'
 import Hr from './Components/Hr'
@@ -10,10 +11,20 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import { AnimatePresence } from 'framer-motion';
 
+import { split } from "./Animations/Text";
+import { useEffect } from "react";
+import scroll from "./Animations/Scroll";
+
+scroll();
 
 function App() {
 
   const location = useLocation();
+
+  useEffect(() => {
+    split();
+});
+
 
   return (
     <div className="App">

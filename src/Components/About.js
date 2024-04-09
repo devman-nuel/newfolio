@@ -16,13 +16,13 @@ function About() {
         </div>   
 
        <div className='job'>
-        <span>On the job</span>
+        <h2>On the job</h2>
 
         <div className='job-box'>
             <div className='job-left'>
               <div className='design'>
-              <span>Digital Design</span>
-              <p>UX Research & Identity Improvement, User-flow, Prototyping, Motion Design, Art Direction</p>
+                <span>Digital Design</span>
+                <p>UX Research & Identity Improvement, User-flow, Prototyping, Motion Design, Art Direction</p>
               </div>
 
               <div className='development'>

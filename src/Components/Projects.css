@@ -36,9 +36,10 @@
     cursor: pointer;
 }
 
-.project-box p{
+.splitting .word {
     font-size: 64px;
     font-family:'Satoshi-Bold';
+    color: #000;
 }
 
 .project-box span{
@@ -146,8 +147,8 @@
         cursor: pointer;
     }
 
-    .project-box p{
-        font-size: 20px;
+    .splitting .word{
+        font-size: 32px;
         font-family:'Satoshi-Bold';
     }
     
