@@ -1,8 +1,8 @@
 
 .marquee{
-    background: #fff;
     margin: 0 auto;
     position: relative;
+    margin-top: 80px;
 }
 
 .offerline{
@@ -17,19 +17,23 @@
 }
 
 .offerline-marquee{
-    background: #fff;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 15s linear infinite;
-
+    animation: marquee 65s linear infinite;
 }
 
+
+
 .offerline-marquee p{
-    background: #fff;
     display: inline-block;
-    font-family:'Satoshi-Medium';
-    font-size: 16px; 
+    font-family:'Monument-Bold';
+    font-size: 96px; 
+    transition:  all ease-in 0.3s;
+}
+
+.offerline-marquee p:hover{
+    color: #6E18BB;
 }
 
 

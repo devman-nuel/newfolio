@@ -1,5 +1,4 @@
 import React from 'react'
-import transition from '../transition'
 import './About.css';
 
 function About() {
@@ -95,4 +94,4 @@ function About() {
   )
 }
 
-export default transition(About)
+export default About

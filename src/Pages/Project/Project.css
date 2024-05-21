@@ -1,0 +1,92 @@
+.project-con{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.project-header h2{
+    font-size: 40px;
+    font-family:'Monument-Bold';
+}
+
+/* src/Project.css */
+
+.filters {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .filters button {
+    padding: 10px 20px;
+    border: 2px solid #202020;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family:'Monument-Regular';
+    font-family: 14px;
+  }
+
+  .filters button:hover{
+    background-color: #161616;
+    color: #161616;
+  }
+  
+  .filters button.active {
+    background-color: #E8E8E8;
+    border: 2px solid #161616;
+    color: #161616;
+  }
+  
+  .filters button:hover:not(.active) {
+    color: #E8E8E8;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* New overlay styles */
+  .grid-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family:'Satoshi-Medium';
+  }
+  
+  .grid-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  @media screen and (max-width:900px){
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    
+  }

@@ -5,8 +5,8 @@
 }
 
 .work h2{
-    font-size: 48px;
-    font-family:'Satoshi-Bold';
+    font-size: 40px;
+    font-family:'Monument-Bold';
 }
 
 .work h4{
@@ -36,8 +36,8 @@
 }
 
 .work-text h2{
-    font-size: 24px;
-    font-family:'Satoshi-Bold';
+    font-size: 20px;
+    font-family:'Monument-Regular';
 }
 
 .work-text p{
@@ -69,6 +69,7 @@
 }
 
 
+
 .work-img{
     display: flex;
     flex-basis: 55%;
@@ -89,7 +90,7 @@
 
 .secondary-img img{
     padding: 5px;
-    border: 1px solid #000;
+    border: 2px solid #E8E8E8;
     border-radius: 10px;
     width: 100px;
     height: 60px;
@@ -101,7 +102,8 @@
     font-family:'Satoshi-Medium';
     padding: 5px 10px;
     border-radius: 30px;
-    border: 1px solid #000;
+    border: 2px solid #E8E8E8;
+    color: #E8E8E8;
     background: transparent;
     cursor: pointer; 
 }
@@ -117,7 +119,7 @@
     background: transparent;
     font-family:'Satoshi-Medium';
     padding: 10px 20px;
-    border: 1px solid #000;
+    border: 2px solid #E8E8E8;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -145,7 +147,6 @@
         margin-top: 5px;
         font-size: 24px;
         font-family:'Satoshi-Bold';
-        color: #5e5c5c;
     }
     
     .work-text{
@@ -186,7 +187,6 @@
 
     .secondary-img img{
         padding: 5px;
-        border: 1px solid #000;
         border-radius: 10px;
         width: 100px;
         height: 60px;

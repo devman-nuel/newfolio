@@ -3,6 +3,8 @@
   padding: 0;    
   text-decoration: none;
   box-sizing: border-box;
+  background: #0C0C0C;
+  color: #E8E8E8;
 }
 
 
@@ -30,6 +32,17 @@
 @font-face {
   font-family:'Satoshi-Black';
   src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf);
+}
+
+
+@font-face {
+  font-family:'Monument-Bold';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Ultrabold.otf);
+}
+
+@font-face {
+  font-family:'Monument-Regular';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Regular.otf);
 }
 
 

@@ -1,6 +1,7 @@
 .footer-con{
     width: 90%;
     margin: 0 auto;
+    margin-top: 80px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -16,14 +17,14 @@
 .fliptext{
     font-family:'Satoshi-Medium';
     font-size: 14px;
-    color: #000;
+    color: #E8E8E8;
     position: relative;
     display: inline-block;
     padding: 5px;    
     transition: transform 0.3s;
     transform-origin: 50% 0;
     transform-style: preserve-3d;
-    border: 1px solid #000;
+    border: 2px solid #E8E8E8;
     border-radius: 20px;
  }
 
@@ -36,14 +37,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background: #000;
+    color: #E8E8E8;
+    background: #6E18BB;
     content: attr(data-hover);
     transition: color 0.5s;
     transform: rotateX(-90deg);
     transform-origin: 50% 0;
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid #6E18BB;
     border-radius: 20px;
   }
 
@@ -51,10 +52,9 @@
     transform: rotateX(90deg) translateY(-22px);
   }
 
-  .copyright span{
+  .copyright p{
     font-family:'Satoshi-Medium';
-    color: #000;
-    font-size: 14px;
+    font-size: 16px;
   }
   
 
