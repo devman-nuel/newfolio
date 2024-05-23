@@ -13,7 +13,7 @@
     margin-top: 5px;
     font-size: 28px;
     font-family:'Satoshi-Bold';
-    color: #5e5c5c;
+    color: #b6b6b6;
 }
 
 .work-con{
@@ -61,7 +61,7 @@
 .credits-con div h4{
     font-size: 16px;
     font-family:'Satoshi-Medium';
-    color: #5e5c5c;   
+    color: #b6b6b6;  
 }
 
 .credits-con div p{
@@ -139,7 +139,6 @@
 
     .work h2{
         font-size: 28px;
-        font-family:'Satoshi-Bold';
     }
 
 

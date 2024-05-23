@@ -9,40 +9,38 @@
 
 
 @font-face {
-  font-family:'Satoshi-Bold';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf);
+  font-family: 'Satoshi-Bold';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf) format('opentype');
 }
 
 @font-face {
-  font-family:'Satoshi-Medium';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf);
-}
-
-
-@font-face {
-  font-family:'Satoshi-Regular';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+  font-family: 'Satoshi-Medium';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf) format('opentype');
 }
 
 @font-face {
-  font-family:'Satoshi-Light';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf);
+  font-family: 'Satoshi-Regular';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf) format('opentype');
 }
 
 @font-face {
-  font-family:'Satoshi-Black';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf);
-}
-
-
-@font-face {
-  font-family:'Monument-Bold';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Ultrabold.otf);
+  font-family: 'Satoshi-Light';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf) format('opentype');
 }
 
 @font-face {
-  font-family:'Monument-Regular';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Regular.otf);
+  font-family: 'Satoshi-Black';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Monument-Bold';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Ultrabold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Monument-Regular';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Regular.otf) format('opentype');
 }
 
 

@@ -29,6 +29,7 @@
   .page-container {
     opacity: 1;
     transition: opacity 0.5s ease; /* Smooth transition */
+    background: #f2f2f2;
   }
   
   .page-container.hidden {
@@ -38,5 +39,12 @@
   .preloader-container p{
     margin-bottom: 30px;
     opacity: 0;
+    background: #f2f2f2;
+  }
+
+  .preloader-container span{
+    background: #f2f2f2;
+    color: #131313;
+    font-family:'Satoshi-Medium';
   }
   
