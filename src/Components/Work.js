@@ -3,11 +3,20 @@ import './Work.css';
 import { Link } from 'react-router-dom';
 
 function Work() {
+    const [selectedImgSmartwave, setSelectedImgSmartwave] = useState(0);
     const [selectedImgWultz, setSelectedImgWultz] = useState(0);
     const [selectedImgFrontax, setSelectedImgFrontax] = useState(0);
     const [selectedImgTransmoot, setSelectedImgTransmoot] = useState(0);
 
-    const images = [
+    const Smartwave = [
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510322/Frame_2487_qedqpz.jpg",
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510208/Frame_2483_gxme4b.jpg",
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510209/Frame_2491_rpl0lo.jpg",
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510207/Frame_2490_fqlbmp.jpg",
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510209/Frame_2492_zy6djp.jpg"
+    ];
+
+    const Wultz = [
         "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2465_dok56g.jpg",
         "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207112/Frame_2481_dievfw.jpg",
         "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2477_hxdsxs.jpg",
@@ -33,15 +42,15 @@ function Work() {
 
     return (
         <div className='work'>
-            <h2 data-animation="header">Selected Works(5)</h2>
+            <h2 data-animation="header">Selected Works(4)</h2>
             <h4>'22 - Till Date</h4>
 
             <div className='work-con'>
                 <div className='work-box'>
                     <div className='work-text'>
                         <div>
-                            <h2>WULTZ</h2>
-                            <p>A Task Management Saas Product Website <br /> <br />
+                            <h2>SmartWave</h2>
+                            <p>An Affiliate Marketing Platform<br /> <br />
                                 Design Tool : Figma <br /> <br />
                                 Built with : React and GSAP for animations. <br /> <br />
                             </p>
@@ -64,11 +73,56 @@ function Work() {
 
                     <div className='work-img'>
                         <div className='primary-img'>
-                            <img src={images[selectedImgWultz]} className="pry" alt="" />
+                            <img src={Smartwave[selectedImgSmartwave]} className="pry" alt="" />
                         </div>
 
                         <div className='secondary-img'>
-                            {images.map((img, index) => (
+                            {Smartwave.map((img, index) => (
+                                <img
+                                    key={index}
+                                    src={img}
+                                    className="sec"
+                                    alt=""
+                                    onClick={() => setSelectedImgSmartwave(index)}
+                                />
+                            ))}
+                            <button className='fliptext' data-hover="Visit Site">Visit Site</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='work-box'>
+                    <div className='work-text'>
+                        <div>
+                            <h2>Wultz</h2>
+                            <p>An Affiliate Marketing Platform<br /> <br />
+                                Design Tool : Figma <br /> <br />
+                                Built with : React and GSAP for animations. <br /> <br />
+                            </p>
+                        </div>
+
+                        <div className='credits'>
+                            <span>Credits</span>
+                            <div className='credits-con'>
+                                <div>
+                                    <h4>Design</h4>
+                                    <p>DevMan_nuel</p>
+                                </div>
+                                <div>
+                                    <h4>Development</h4>
+                                    <p>DevMan_nuel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='work-img'>
+                        <div className='primary-img'>
+                            <img src={Wultz[selectedImgWultz]} className="pry" alt="" />
+                        </div>
+
+                        <div className='secondary-img'>
+                            {Wultz.map((img, index) => (
                                 <img
                                     key={index}
                                     src={img}
