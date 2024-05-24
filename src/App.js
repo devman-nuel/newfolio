@@ -14,6 +14,7 @@ import Project from "./Pages/Project/Project";
 import './App.css';
 import scroll from "./Animations/Scroll";
 import { split } from "./Animations/Text";
+import Smartwave from "./Pages/Smartwave/Smartwave";
 
 scroll();
 
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "/project",
         element: <Project />,
+      },
+      {
+        path: "/smartwave",
+        element: <Smartwave />,
       },
  
     ]

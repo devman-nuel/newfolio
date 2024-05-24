@@ -1,0 +1,122 @@
+.detail-con{
+    padding: 0 15%;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.detail-con h2{
+    font-family: 'Monument-Bold';
+    font-size: 40px;
+    text-align: center;
+}
+
+.detail-con p{
+    font-family: 'Satoshi-Medium';  
+    color: #b6b6b6;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.more-detail{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.more-detail div{
+    display: flex;
+    flex-direction: column;
+}
+
+.more-detail div p{
+    font-family: 'Satoshi-Medium';  
+    color: #b6b6b6;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.more-detail div span{
+    font-family: 'Satoshi-Medium';
+    color: #e8e8e8;
+    text-align: center;
+}
+
+.first-deetImg{
+   margin-top: 120px;
+}
+
+.first-deetImg img{
+  width: 100%;
+}
+
+.approach{
+    margin-top: 120px;
+}
+
+.approach h2{
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.approach div{
+    margin-top: 30px;
+}
+
+.approach div p{
+  margin-top: 10px; 
+  text-align: center;
+}
+
+.approach div span{
+    font-family: 'Satoshi-Medium';  
+    text-align: center;
+}
+
+@media screen and (max-width:900px){
+    .detail-con{
+        padding: 0 8%;
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detail-con h2{
+        font-family: 'Monument-Bold';
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .more-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .first-deetImg{
+        margin-top: 60px;
+     }
+
+     
+    .approach{
+        margin-top: 60px;
+    }
+
+    .approach h2{
+        font-size: 28px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+}

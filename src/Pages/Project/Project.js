@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Project.css'; // Import the CSS file
 
 const images = [
-  { id: 1, src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510322/Frame_2487_qedqpz.jpg', category: 'Websites', path: '/details/1', alt: 'Web app design 1' },
+  { id: 1, src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1716510322/Frame_2487_qedqpz.jpg', category: 'Websites', path: '/smartwave', alt: 'Web app design 1' },
   { id: 2, src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2465_dok56g.jpg', category: 'Websites', path: '/details/2', alt: 'Website design 2' },
   { id: 3, src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1716214199/Frame_2458_msjusw.jpg', category: 'App Design', path: '/details/3', alt: 'App design 3' },
   { id: 4, src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207116/Frame_2463_uqoavv.jpg', category: 'Web apps', path: '/details/4', alt: 'Web app design 4' },
