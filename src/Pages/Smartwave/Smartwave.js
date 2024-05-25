@@ -6,7 +6,7 @@ function Smartwave() {
   return (
     <div>
          <div className='detail-con'>
-            <h2>smartWave</h2>
+            <h2 data-animation="paragraph">smartWave</h2>
             <p>The objective was to produce a high-converting landing page for the platform prioritizing quick loading speed, excellent design, and seamless responsiveness for both web and mobile devices. </p>
 
             <div className='more-detail'>
@@ -31,7 +31,7 @@ function Smartwave() {
             </div>
 
             <div className='approach'>
-                <h2>Project Approach</h2>
+                <h2 data-animation="paragraph">Project Approach</h2>
 
                 <div>
                     <p>Creating intuitive layouts and interfaces that enhance user experience and engagement. <br></br><br></br>

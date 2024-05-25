@@ -5,7 +5,7 @@ function Detail() {
   return (
     <div>
            <div className='detail-con'>
-            <h2>Project Name</h2>
+            <h2 data-animation="paragraph">Project Name</h2>
             <p>Project Objective</p>
 
             <div className='more-detail'>
@@ -30,7 +30,7 @@ function Detail() {
             </div>
 
             <div className='approach'>
-                <h2>Project Approach</h2>
+                <h2 data-animation="paragraph">Project Approach</h2>
 
                 <div>
                     <p>Creating intuitive layouts and interfaces that enhance user experience and engagement. <br></br><br></br>

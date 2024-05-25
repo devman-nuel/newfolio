@@ -1,11 +1,18 @@
-
-.marquee{
+.marque {
     margin: 0 auto;
     position: relative;
     margin-top: 80px;
+    text-align: center;
 }
 
-.offerline{
+.marque h2{
+    font-family:'Monument-Regular';
+    font-size: 96px;
+    transition: all ease-in 0.3s;
+    text-align: center;
+}
+
+.offerline {
     position: relative;
     width: 100%;
     max-width: 100%;
@@ -16,39 +23,51 @@
     text-align: center;
 }
 
-.offerline-marquee{
+.offerline-marquee {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 65s linear infinite;
 }
 
-
-
-.offerline-marquee p{
+.offerline-marquee p {
     display: inline-block;
-    font-family:'Monument-Bold';
-    font-size: 96px; 
-    transition:  all ease-in 0.3s;
+       font-family:'Monument-Regular';
+    font-size: 96px;
+    transition: all ease-in 0.3s;
 }
 
-.offerline-marquee p:hover{
+.offerline-marquee p:hover {
     color: #6E18BB;
 }
 
-
-@keyframes marquee{
-    0%{
+@keyframes marquee-left {
+    0% {
         transform: translate3d(0px, 0px, 0px);
     }
-    100%{
+    100% {
         transform: translate3d(-50%, 0px, 0px);
     }
 }
 
-@media(max-width:768px){       
-    .offerline{
+@keyframes marquee-right {
+    0% {
+        transform: translate3d(-50%, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+.offerline-marquee.left {
+    animation: marquee-left 95s linear infinite;
+}
+
+.offerline-marquee.right {
+    animation: marquee-right 95s linear infinite;
+}
+
+@media(max-width: 768px) {
+    .offerline {
         padding: 10px 0;
     }
-        
- }
+}

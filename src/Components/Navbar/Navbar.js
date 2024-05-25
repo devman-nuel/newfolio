@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
 
             <div className='nav-overlay' style={{
-                left: navOpen ? "0" : "-150%",
+                left: navOpen ? "0" : "-100%",
                 transitionDelay : navOpen ? "0s" : "0s"
             }}>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <li className='nav-item'>
                       <NavLink to="/about" onClick={() => setNavOpen(!navOpen)} style={{
                          top: navOpen ? "0" : "120px",
-                         transitionDelay : navOpen ? "0s" : "0s" 
+                         transitionDelay : navOpen ? "0s" : "2s" 
                       }}>About</NavLink>
                        <div className='nav-wrapper'></div>
                     </li> 

@@ -39,9 +39,14 @@
 }
 
 .hero-image{
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
+    transition: all ease-in 0.3s;
+}
+
+.hero-image:hover{
+    border-radius: 50%;
 }
 
 .more-box{
