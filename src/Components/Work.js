@@ -17,8 +17,8 @@ function Work() {
     ];
 
     const Wultz = [
-        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2465_dok56g.jpg",
-        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207112/Frame_2481_dievfw.jpg",
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716726049/Frame_2465_zeojtg.jpg",
+        "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716730077/Frame_2481_aajb5c.jpg",
         "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2477_hxdsxs.jpg",
         "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2480_riyhef.jpg",
         "https://res.cloudinary.com/dxnukbo0u/image/upload/v1716207113/Frame_2478_ljpcq5.jpg"
@@ -86,7 +86,7 @@ function Work() {
                                     onClick={() => setSelectedImgSmartwave(index)}
                                 />
                             ))}
-                            <button className='fliptext' data-hover="Visit Site">Visit Site</button>
+                            <Link to="https://www.smartwave.ng/" target="_blank" ><button className='fliptext' data-hover="Visit Site">View Live</button></Link>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ function Work() {
                                     onClick={() => setSelectedImgWultz(index)}
                                 />
                             ))}
-                            <button className='fliptext' data-hover="Visit Site">Visit Site</button>
+                             <Link to="https://wultz.netlify.app/" target="_blank" ><button className='fliptext' data-hover="Visit Site">View Live</button></Link>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ function Work() {
                                     onClick={() => setSelectedImgFrontax(index)}
                                 />
                             ))}
-                            <button className='fliptext' data-hover="Visit Site">Visit Site</button>
+                             <Link to="" target="_blank"><button className='fliptext' data-hover="Visit Site">View Live</button></Link>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@ function Work() {
                                     onClick={() => setSelectedImgTransmoot(index)}
                                 />
                             ))}
-                            <button className='fliptext' data-hover="Visit Site">Visit Site</button>
+                             <Link to="https://transmoot.netlify.app/" target="_blank" ><button className='fliptext' data-hover="Visit Site">View Live</button></Link>
                         </div>
                     </div>
                 </div>

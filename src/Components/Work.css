@@ -98,7 +98,10 @@
     cursor: pointer;
 }
 
+
+
 .secondary-img button{
+    width: 100%;
     font-family:'Satoshi-Medium';
     padding: 5px 10px;
     border-radius: 30px;
