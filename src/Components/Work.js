@@ -95,7 +95,7 @@ function Work() {
                     <div className='work-text'>
                         <div>
                             <h2>Wultz</h2>
-                            <p>An Affiliate Marketing Platform<br /> <br />
+                            <p>A Task Management Platform Website<br /> <br />
                                 Design Tool : Figma <br /> <br />
                                 Built with : React and GSAP for animations. <br /> <br />
                             </p>
@@ -177,7 +177,7 @@ function Work() {
                                     onClick={() => setSelectedImgFrontax(index)}
                                 />
                             ))}
-                             <Link to="" target="_blank"><button className='fliptext' data-hover="Visit Site">View Live</button></Link>
+                             <Link to="https://frontax.netlify.app/" target="_blank"><button className='fliptext' data-hover="Visit Site">View Live</button></Link>
                         </div>
                     </div>
                 </div>
