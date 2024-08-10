@@ -3,7 +3,7 @@ import Hero from '../../Components/Hero/Hero'
 import Work from '../../Components/Work'
 import Marquee from '../../Components/Marquee/Marquee'
 import Cta from '../../Components/Cta/Cta'
-import Testimonial from '../../Components/Testimonial/Testimonial'
+
 
 function Home() {
   return (
