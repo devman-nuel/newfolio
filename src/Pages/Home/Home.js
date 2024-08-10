@@ -9,7 +9,6 @@ function Home() {
   return (
     <div>
       <Hero />
-      <Testimonial />
       <Work />
       <Marquee />
       <Cta />
