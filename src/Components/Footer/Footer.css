@@ -11,6 +11,8 @@
 
 .footer div h2{
   width: 50%;
+  font-size: 40px;
+  line-height: 60px;
   color: #A28EC9;
   background: #412E70;
   margin-bottom: 20px;
@@ -118,7 +120,8 @@
     
     .footer div h2{
       width: 100%;
-      font-size: 28px;
+      font-size: 32px;
+      line-height: 44px;
       font-family: 'Monument-Bold';
       color: #A28EC9;
       background: #412E70;

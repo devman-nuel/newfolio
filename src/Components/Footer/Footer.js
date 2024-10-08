@@ -3,7 +3,9 @@ import {Link} from "react-router-dom"
 import './Footer.css';
 
 
+
 function Footer() {
+
 
   const currentYear = new Date().getFullYear();
 
@@ -31,8 +33,9 @@ function Footer() {
     <div className='footer'>
 
       <div>
-        <h2 data-animation="header" >Got an idea or a project? Let's Talk</h2>
+        <h2  >Got an idea or a project? Let's Talk</h2>
       </div>
+      
       <span>emmanuelakharia@gmail.com</span>
       <div className='footer-con'>
          <div>
