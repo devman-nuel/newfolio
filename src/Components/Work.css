@@ -1,201 +1,137 @@
-.work{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 100px;
+.work {
+  padding: 0 10%;
+  margin: 0 auto;
+  margin-top: 100px;
+  overflow: hidden; /* Prevent overflow */
 }
 
-.work h2{
-    font-size: 40px;
-    font-family:'Monument-Bold';
-    color: #E8E8E8;
+.work h2 {
+  font-size: 40px;
+  font-family: 'Monument-Bold';
+  color: #E8E8E8;
+  background: transparent;
 }
 
-.work h4{
-    margin-top: 5px;
-    font-size: 28px;
-    font-family:'Satoshi-Bold';
-    color: #b6b6b6;
+.work h4 {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family:'Monument-Regular';
+  color: #b6b6b6;
 }
 
-.work-con{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    margin-top: 70px;
+/* Filters */
+.filters {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.work-box{
-    display: flex;
-    justify-content: space-between;
+.filters button {
+  padding: 10px 20px;
+  border: 2px solid #202020;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Monument-Regular';
+  font-size: 12px;
 }
 
-.work-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: 40%;
+.filters button:hover {
+  background-color: #161616;
+  color: #161616;
 }
 
-.work-text h2{
-    font-size: 20px;
-    font-family:'Monument-Regular';
+.filters button.active {
+  background-color: #E8E8E8;
+  border: 2px solid #161616;
+  color: #161616;
 }
 
-.work-text p{
-    font-size: 18px;
-    font-family:'Satoshi-Medium';
-    margin-top: 20px;
-    margin-bottom: 20px;  
-}
-
-.credits span{
-    font-size: 18px;
-    font-family:'Satoshi-Medium';
-}
-
-.credits-con{
-    margin-top: 20px;
-    display: flex;
-    gap: 30px;
-}
-
-.credits-con div h4{
-    font-size: 16px;
-    font-family:'Satoshi-Medium';
-    color: #b6b6b6;  
-}
-
-.credits-con div p{
-    margin-top: 3px;
+.filters button:hover:not(.active) {
+  color: #E8E8E8;
 }
 
 
-
-.work-img{
-    display: flex;
-    flex-basis: 55%;
-    gap: 20px;
+.main-grid {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap; /* Add this line */
 }
 
-.work-img img{
-    width: 100%;
-    cursor: pointer;
+.grid-card {
+  flex: 1 1 calc(45.55% - 10px); /* Adjust this to control card width */
+  box-sizing: border-box; /* Ensure padding and border are included in the total width */
 }
 
-.secondary-img {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.grid-card img {
+  width: 100%;
+  object-fit: cover;
 }
 
-
-.secondary-img img{
-    padding: 5px;
-    border: 2px solid #E8E8E8;
-    border-radius: 10px;
-    width: 100px;
-    height: 60px;
-    object-fit: cover;
-    cursor: pointer;
+.pro-con {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 50px;
 }
 
 
-
-.secondary-img button{
-    width: 100%;
-    font-family:'Satoshi-Medium';
-    padding: 5px 10px;
-    border-radius: 30px;
-    border: 2px solid #E8E8E8;
-    color: #E8E8E8;
-    background: transparent;
-    cursor: pointer; 
+.pro-btn button {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  color: #000;
 }
 
-.more-dir{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+.pro-text p{
+  color: #d3d3d3;
+  font-size: 20px;
+  font-family:'Monument-Regular';
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
 }
 
-.more-dir button{
-    background: transparent;
-    font-family:'Satoshi-Medium';
-    padding: 10px 20px;
-    border: 2px solid #E8E8E8;
-    border-radius: 30px;
-    cursor: pointer;
+.pro-text span{
+  font-size: 12px;
+  font-family:'Monument-Regular';
 }
 
-@media screen and (max-width:900px){
-    .work{
-        margin-top: 50px;
-    }
 
-    .work-con{
-        margin-top: 30px;     
-     }
+/* Media Queries for smaller screens */
+@media screen and (max-width: 900px) {
+  .work {
+      margin-top: 50px;
+      padding: 0 5%;
+  }
 
-    .work-box{
-        flex-direction: column;
-    }
+  .work-con {
+      margin-top: 30px;
+  }
 
-    .work h2{
-        font-size: 28px;
-    }
+  .work-box {
+      flex-direction: column;
+  }
 
+  .work h2 {
+      font-size: 28px;
+  }
 
-    .work h4{
-        margin-top: 5px;
-        font-size: 24px;
-        font-family:'Satoshi-Bold';
-    }
-    
-    .work-text{
-        flex-basis: 100%;
-    }
+  .work h4 {
+      margin-top: 15px;
+      font-size: 14px;
+      
+  }
 
-    .work-text h2{
-        font-size: 20px;
-        font-family:'Satoshi-Bold';
-    }
+  .filters button {
+    font-size: 12px;
+  }
+  
 
-    .work-text p{
-        font-size: 14px;
-        margin-top: 5px;
-    }
-    
-    
-    .work-img{
-        margin-top: 30px;
-        flex-direction: column;
-        flex-basis: 100%;
-        gap: 20px;
-    }
-
-    .work-img img{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        cursor: pointer;
-    }
-
-    .secondary-img {
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .secondary-img img{
-        padding: 5px;
-        border-radius: 10px;
-        width: 100px;
-        height: 60px;
-        object-fit: cover;
-        cursor: pointer;
-    }
-    
-    
+ 
 }

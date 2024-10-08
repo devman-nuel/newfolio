@@ -3,32 +3,39 @@
   padding: 0;    
   text-decoration: none;
   box-sizing: border-box;
+  background: #131315;
+  color: #F8F8FA;
+  letter-spacing: 1.5px;
+}
+
+h2{
+  font-family: 'Monument-Bold';
+  font-size: 40px;
+  line-height: 60px;
+}
+
+@media screen and (max-width:900px){
+  
+h2{
+  font-size: 28px;
+  line-height: 44px;
+}
 }
 
 
 @font-face {
-  font-family: 'Satoshi-Bold';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf) format('opentype');
+  font-family: 'Gellix-Bold';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Gellix-Bold.ttf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Satoshi-Medium';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf) format('opentype');
+  font-family: 'Gellix-Medium';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Gellix-Medium.ttf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Satoshi-Regular';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Satoshi-Light';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Satoshi-Black';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf) format('opentype');
+  font-family: 'Gellix-Regular';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Gellix-Regular.ttf) format('opentype');
 }
 
 @font-face {

@@ -1,31 +1,57 @@
+.footer{
+  background: #412E70;
+  padding: 5% 10%;
+  margin-top: 80px;
+  font-family: 'Monument-Regular';
+}
+
+.footer div {
+  background: #412E70;
+}
+
+.footer div h2{
+  width: 50%;
+  color: #A28EC9;
+  background: #412E70;
+  margin-bottom: 20px;
+}
+
+.footer span{
+  background: #412E70;
+  color: #A28EC9;
+}
+
 .footer-con{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background: #412E70;
+    margin-top: 100px;  
+    font-size: 10px;
+}
+
+.footer-con div{
+  background: #412E70;
 }
 
 .footer-links{
     display: flex;
-    justify-content: space-between;
     gap: 20px;
+    background: #412E70;
+    margin-top: 15px;
 }
 
 .fliptext{
-    font-family:'Satoshi-Medium';
-    font-size: 14px;
-    color: #E8E8E8;
+    font-size: 10px;
+    color: #A28EC9;
     position: relative;
     display: inline-block;
     padding: 5px;    
     transition: transform 0.3s;
     transform-origin: 50% 0;
     transform-style: preserve-3d;
-    border: 2px solid #E8E8E8;
+    border: 2px solid #A28EC9;
     border-radius: 20px;
+    background: #412E70;
  }
 
  .fliptext:before {
@@ -37,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E8E8E8;
+    color: #fff;
     background: #6E18BB;
     content: attr(data-hover);
     transition: color 0.5s;
@@ -52,24 +78,74 @@
     transform: rotateX(90deg) translateY(-22px);
   }
 
+  .copyright{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    background: #412E70;
+  }
+
+  .copyright div{
+    background: #412E70;
+  }
+
+  .copyright div p{
+    background: #412E70;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #A28EC9;
+  }
+
+  .copyright div span{
+    background: #412E70;
+    font-size: 10px;
+  }
+
   .copyright p{
-    font-family:'Satoshi-Medium';
     font-size: 16px;
+    background: #412E70;
+    font-size: 12px;
   }
   
 
   @media screen and (max-width:900px){
+    .footer{
+      background: #412E70;
+      padding: 10% 5% ;
+      margin-top: 80px;
+      font-family: 'Monument-Regular';
+    }
+    
+    .footer div h2{
+      width: 100%;
+      font-size: 28px;
+      font-family: 'Monument-Bold';
+      color: #A28EC9;
+      background: #412E70;
+      margin-bottom: 10px;
+    }
+    
+    .footer span{
+      background: #412E70;
+      color: #A28EC9;
+      font-size: 12px;
+    }
+
     .footer-con{
         flex-direction: column;
     }
     
     .footer-links{
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    }
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      background: #412E70;
+      margin-top: 15px;
+  }
 
     .copyright {
+      flex-direction: column;
         margin-top: 50px;
+        align-items: flex-start;
     }
   }

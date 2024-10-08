@@ -1,22 +1,42 @@
 .hero{ 
-    padding: 120px 0;
     padding-bottom: 0;
-    text-align: center;
+    padding: 0 10%;
+    padding-top: 120px;
+    height: 100vh;
+    background: #412E70;
+    display: flex;
+    justify-content: space-between;
 }
 
+.hero-head{
+    flex-basis: 45%;
+    background: #412E70;
+}
 
-.hero h2{
-    font-size: 40px;
-    line-height: 50px;
+h2{
+    background: #412E70;
+    color: #A18DC8;
     font-family:'Monument-Bold';
-    margin: 20px 0;
-    padding: 0 5%;
-    margin-bottom: 100px;
-    color: #0d0c22;
+}
+
+.hero-text{
+    flex-basis: 35%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 100px;
+    background: #412E70;
+}
+
+.hero p{
+    font-size: 12px;
+    font-family:'Monument-Regular';
+    line-height: 24px;
+    background: #412E70;
+    color: #c7b0f5;
 }
 
 .carousel{
-    display: flex;
+    display: none;
     gap: 10px;
     overflow-x: hidden; /* Hide the horizontal scrollbar */
     white-space: nowrap; /* Prevent line breaks inside the carousel */
@@ -36,17 +56,42 @@
 
 @media screen and (max-width:900px){
     .hero{ 
-        padding: 120px 0;
-        background: #0C0C0C;
+        padding: 0 5%;
+        padding-top: 120px;
         padding-bottom: 0;
+        flex-direction: column;
     }
 
-    .hero h2{
+    .hero-head h2{
         font-size: 28px;
         line-height: 38px;
         font-family:'Monument-Bold';
-        margin: 20px 0;
-        padding: 0 5%;
+        text-align: left;
+    }
+
+    .hero-head{
+        flex-basis: 100%;
+        background: #412E70;
+    }
+    
+
+    .hero-text{
+        flex-basis: 100%;
+        display: flex;
+        align-items: last baseline;
+        padding-bottom: 100px;
+        background: #412E70;
+      
+    }
+
+        
+    .hero p{
+        font-size: 10px;
+        font-family:'Monument-Regular';
+        line-height: 20px;
+        background: #412E70;
+        color: #c7b0f5;
+        margin-left: 50px;
     }
 
 }

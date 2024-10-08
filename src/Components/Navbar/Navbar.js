@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import  './Navbar.css'
 
 
 
+
 const Navbar = () => {
+    const [showMenu, setShowMenu] = useState(false); // Track menu visibility
+  
+
+    const toggleMenu = () => {
+      setShowMenu(!showMenu); // Toggle menu visibility
+    };
 
     return (
         <div className='nav'>
@@ -16,7 +23,28 @@ const Navbar = () => {
 
                <div className='nav-btn'>
                 <button>Hire Me</button>
-               </div>          
+               </div>   
+
+                <div className='menu-toggle' onClick={toggleMenu}>
+              <div className={showMenu ? "hamBox hamBoxOpen" : "hamBox"}>
+                <span className={showMenu ? "lineTop spin" : "lineTop"}></span>
+                <span className={showMenu ? "lineBottom spin" : "lineBottom"}></span>
+              </div>
+            </div>
+
+            
+            {showMenu && (
+            <div className="fixed-component">
+                <div className='menu-con'>
+                <p>MENU</p>
+                <h2>Dribble</h2>
+                <h2>Linkedin</h2>
+                <h2>Twitter</h2>
+             
+                <button>Hire Me</button>
+                </div>
+            </div>
+            )}       
             </div>
            </div> 
         </div>       
