@@ -33,7 +33,7 @@ function Footer() {
     <div className='footer'>
       <div className='head-flex'>
         <div className='hero-head'>
-          <h2 data-animation="paragraph" >Let’s create standout digital experiences together!</h2> 
+          <h2  >Let’s create standout digital experiences together!</h2> 
         </div>
       </div>
       

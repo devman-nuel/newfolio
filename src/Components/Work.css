@@ -84,16 +84,6 @@
   gap: 50px;
 }
 
-
-.pro-btn button {
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  border: none;
-  background: #fff;
-  color: #000;
-}
-
 .pro-text p{
   color: #d3d3d3;
   font-size: 20px;
@@ -113,6 +103,7 @@
   .work {
       padding: 0 7%;
       padding-top: 60px;
+      padding-bottom: 60px;
   }
 
   .work-box {
@@ -132,7 +123,15 @@
   .filters button {
     font-size: 10px;
   }
-  
 
+  .pro-text p{
+    margin-bottom: 0px;
+    letter-spacing: 1.5px;
+  }
+  
+  .pro-text span{
+    font-size: 10px;
+    font-family:'Monument-Regular';
+  }
  
 }
