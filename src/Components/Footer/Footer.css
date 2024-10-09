@@ -8,6 +8,18 @@
   background: #412E70;
 }
 
+
+.send-btn{
+  padding: 10px 18px;
+  border-radius: 60px;
+  background: #A28EC9;
+  border: none;
+  color: #412E70;
+  font-family: 'Monument-Regular';
+  font-size: 12px;
+  margin-top: 20px;
+}
+
 .footer span{
   background: #412E70;
   color: #A28EC9;

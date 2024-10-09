@@ -37,7 +37,8 @@ function Footer() {
         </div>
       </div>
       
-      <span>emmanuelakharia@gmail.com</span>
+      <button className='send-btn'>Send mail</button>
+
       <div className='footer-con'>
          <div>
           <span>SOCIAL MEDIA</span>
