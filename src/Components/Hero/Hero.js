@@ -1,68 +1,73 @@
-import React, { useEffect,  useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import './Hero.css';
 import { gsap } from "gsap";
-import { IO } from "../../Animations/Observe"; // Make sure to adjust the path if necessary
+import { IO } from "../../Animations/Observe"; // Adjust the path if necessary
 
 function Hero() {
-  const videoRef = useRef(null);
+  const images = [
+    'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728357085/Frame_2462_1_pfomv7.jpg',
+    'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728488786/Frame_1707479651_1_k3vxmw.jpg',
+    'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728488780/Frame_1707479656_1_bzkmj1.jpg',
+    'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728488780/Frame_1707479653_1_u1794h.jpg',
+    'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728488779/Frame_1707479657_1_dldosu.jpg',
+    'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728488779/Frame_1707479654_1_h9ezqi.jpg'
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const imagesRef = useRef(null);
 
   useEffect(() => {
-    
-      // Initialize video animation
-      const videoElement = videoRef.current;
+    // Change image every 2 seconds
+    const interval = setInterval(() => {
+      setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
+    }, 1000);
 
-      const animateVideo = () => {
-          gsap.fromTo(
-              videoElement,
-              { y: 500, opacity: 0 }, // Initial state
-              {
-                  y: 0, // Final state
-                  opacity: 1,
-                  duration: 1.2, // Duration of the animation
-                  ease: "power3.out", // Easing for smooth transition
-              }
-          );
-      };
+    // GSAP animation for images
+    const imagesElement = imagesRef.current;
+    const animateImages = () => {
+      gsap.fromTo(
+        imagesElement,
+        { y: 500, opacity: 0 }, // Initial state
+        {
+          y: 0, // Final state
+          opacity: 1,
+          duration: 1.6, // Duration of the animation
+          ease: "power3.out" // Easing for smooth transition
+        }
+      );
+    };
 
-      // Ensure the animation is applied when the video comes into view
-      IO(videoElement, { threshold: 0.5 }).then(() => {
-          animateVideo();
-      });
+    // Apply animation when images come into view
+    IO(imagesElement, { threshold: 0.5 }).then(() => {
+      animateImages();
+    });
 
-      // Optionally, you could also handle the case where the video might be already in view
-      animateVideo();
-
-  }, []);
-
- 
+    // Cleanup interval on unmount
+    return () => clearInterval(interval);
+  }, [images.length]); // Add images.length as a dependency
 
   return (
     <div className='hero'>
       <div className='head-flex'>
         <div className='hero-head'>
-          <h2 data-animation="paragraph" > Digital Designer & React Developer</h2> 
-          <p>I craft distinctive web experiences and tackle digital challenges by offering tailored design solutions that align with your vision and objectives, using both design and code.</p>     
+          <h2 data-animation="paragraph"> Digital Designer & React Developer</h2>
+          <p>I craft distinctive web experiences and tackle digital challenges by offering tailored design solutions that align with your vision and objectives, using both design and code.</p>
         </div>
 
         <div className='hero-text'>
-          <div className="insight">
-                  <video
-                      ref={videoRef}
-                      className="insight-2022"
-                      autoPlay
-                      loop
-                      playsInline
-                      src="https://res.cloudinary.com/dxnukbo0u/video/upload/v1728472204/clideo_editor_63320dc873394b4eb1a554c90f03cf81_fxmhzv.mp4"
-                  ></video>
-
-                 
-            </div> 
-         </div>
-
+          <div className="insight" ref={imagesRef}>
+            <img
+              src={images[currentImageIndex]}
+              alt={`Slide ${currentImageIndex}`}
+              className="insight-2022"
+              loading="lazy"
+            />
+          </div>
+        </div>
       </div>
-        
     </div>
-  )
+  );
 }
 
 export default Hero;
+

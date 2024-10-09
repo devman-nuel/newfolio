@@ -5,6 +5,7 @@
     font-family:'Monument-Regular';
     background: #412E70;
     overflow: hidden; /* Prevent overflow */
+    padding-bottom: 60px;
 }
 
 .head-flex{
@@ -14,6 +15,9 @@
 }
 
 .hero-head{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     flex-basis: 48%;
     width: 100%;
     background: #412E70;
@@ -40,19 +44,21 @@
 
 .hero-text{
     height: 100%;
-    margin-top: 100px;
     flex-basis: 48%;
     background: #412E70;
 }
 
 
 .insight {
-    margin-top: 60px;
     position: relative;
     overflow: hidden;
 }
 
 .insight-2022 {
+    width: 100%;
+}
+
+.insight-2022 img{
     width: 100%;
 }
 
@@ -103,7 +109,7 @@
     .hero{ 
         padding: 0 7%;
         padding-top: 120px;
-        padding-bottom: 0;
+        padding-bottom: 60px;
         flex-direction: column;
     }
 
@@ -130,7 +136,6 @@
         margin-top: 10px;
         flex-basis: 50%;
         background: #412E70;
-        padding-bottom: 60px;
     }
 
 
