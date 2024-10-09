@@ -2,7 +2,6 @@
     padding-bottom: 0;
     padding: 0 10%;
     padding-top: 120px;
-    font-family:'Monument-Regular';
     background: #412E70;
     overflow: hidden; /* Prevent overflow */
     padding-bottom: 60px;
@@ -34,9 +33,9 @@
 
 .hero-head p{
     margin-top: 10px;
-    font-size: 10px;
-    font-family:'Monument-Regular';
-    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Aeonik-Regular';
+    line-height: 28px;
     background: #412E70;
     color: #c7b0f5;
 }
@@ -134,8 +133,16 @@
 
     .hero-text{
         margin-top: 10px;
-        flex-basis: 50%;
+        flex-basis: 100%;
         background: #412E70;
+    }
+
+    .hero-head p{
+        font-size: 14px;
+        font-family: 'Aeonik-Regular';
+        line-height: 24px;
+        background: #412E70;
+        color: #c7b0f5;
     }
 
 

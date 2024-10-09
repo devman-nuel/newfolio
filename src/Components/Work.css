@@ -79,23 +79,41 @@
 
 .pro-con {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding-top: 20px;
-  gap: 50px;
+  gap: 0px;
 }
 
 .pro-text p{
-  color: #d3d3d3;
-  font-size: 20px;
-  font-family:'Monument-Regular';
-  margin-bottom: 10px;
+   color: #d3d3d3;
+    font-size: 18px;
+    font-family: 'Monument-Regular';
+    line-height: 28px;
+    margin-bottom: 10px;
   letter-spacing: 1.5px;
 }
 
-.pro-text span{
-  font-size: 12px;
-  font-family:'Monument-Regular';
+.view-project{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #636363;
+  padding-top: 15px;
 }
+
+
+.view-project span{
+  font-size: 16px;
+  font-family: 'Aeonik-Regular';
+}
+
+.view-project a{
+  color: #aaa;
+  font-family: 'Aeonik-Regular';
+  text-decoration: underline;
+}
+
+
 
 
 /* Media Queries for smaller screens */

@@ -9,7 +9,7 @@ const projects = [
         category: 'Websites', 
         path: 'https://www.bsbtheagency.com/', 
         alt: 'Wultz',
-        description: { p: 'BSB MANAGEMENT', span: 'Website Design & Development' }
+        description: { p: 'BSB MANAGEMENT', span: 'Design & Development' }
     },
     { 
         id: 2, 
@@ -17,7 +17,7 @@ const projects = [
         category: 'Websites', 
         path: '', 
         alt: 'Stally',
-        description: { p: 'Stally', span:'Website Design & Development' }
+        description: { p: 'KLUVAX', span:'Design & Development' }
     },
     { 
         id: 5, 
@@ -25,7 +25,7 @@ const projects = [
         category: 'App Design', 
         path: '', 
         alt: 'Kuda',
-        description: { p: 'Kuda', span: 'App Design'}
+        description: { p: 'TRAVELMETA', span: 'App Design' }
     },
     { 
         id: 6, 
@@ -33,23 +33,23 @@ const projects = [
         category: 'App Design', 
         path: '', 
         alt: 'MobileX',
-        description: { p: 'MobileX', span: 'App Design'}
+        description: { p: 'COLLEC3DIBLES', span: 'App Design' }
     },
     { 
         id: 9, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
         category: 'Web apps', 
         path: '', 
-        alt: 'Webify',
-        description: { p: 'Webify', span: 'Web App Design' }
+        alt: 'SMARTWAVE',
+        description: { p: 'SMARTWAVE', span: 'Web App Design' }
     },
     { 
         id: 10, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
         category: 'Web apps', 
         path: '', 
-        alt: 'AppHub',
-        description: { p: 'AppHub', span: 'Web App Design' }
+        alt: 'FIGMA PLUGIN',
+        description: { p: 'FIGMA PLUGIN', span: 'Web App Design' }
     }
 ];
 
@@ -81,7 +81,17 @@ function Work() {
                             <div className='pro-con'>
                                 <div className='pro-text'>
                                     <p>{project.description.p}</p>
+                                </div>
+
+                                <div className='view-project'>
                                     <span>{project.description.span}</span>
+                                    {project.path ? (
+                                        <a href={project.path} target="_blank" rel="noopener noreferrer">
+                                            View Project
+                                        </a>
+                                    ) : (
+                                        <span>Coming Soon</span>
+                                    )}
                                 </div>
                             </div>
                         </div>

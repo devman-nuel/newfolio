@@ -8,19 +8,20 @@
 
 
 
+
 @font-face {
-  font-family: 'Gellix-Bold';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Gellix-Bold.ttf) format('opentype');
+  font-family: 'Aeonik-Bold';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/AeonikTRIAL-Bold.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Gellix-Medium';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Gellix-Medium.ttf) format('opentype');
+  font-family: 'Aeonik-Regular';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/AeonikTRIAL-Regular.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Gellix-Regular';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/Gellix-Regular.ttf) format('opentype');
+  font-family: 'Aeonik-Light';
+  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/AeonikTRIAL-Light.otf) format('opentype');
 }
 
 @font-face {

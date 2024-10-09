@@ -32,8 +32,9 @@
 }
 
 .skill-con p, .strength-con p {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Aeonik-Regular';
+    line-height: 28px;
 }
 
 .skills, .strengths {
@@ -50,6 +51,9 @@
     color: #E8E8E8;
     padding: 20px;
     border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Aeonik-Regular';
+    line-height: 28px;
 }
 
 @media screen and (max-width:900px){
@@ -71,7 +75,7 @@
  }
 
  .skill-con p, .strength-con p {
-    font-size: 10px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -80,7 +84,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 24px;
 }
 
