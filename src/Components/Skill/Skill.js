@@ -6,7 +6,7 @@ function Skill() {
     <div className='skill'>
        <div className='skill-card'>
          <div className='skill-con'>
-           <p>Here’s how I can help:</p>
+           <p>Here’s how I can help you:</p>
 
             <div className='skills'>
             <span>Designing and developing intuitive websites and mobile apps.</span>

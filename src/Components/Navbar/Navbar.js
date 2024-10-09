@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
 
                <div className='nav-btn'>
-                <button>Hire Me</button>
+                <button>Get in touch</button>
                </div>   
 
                 <div className='menu-toggle' onClick={toggleMenu}>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <h2>Linkedin</h2>
                 <h2>Twitter</h2>
              
-                <button>Hire Me</button>
+                <button>Get in touch</button>
                 </div>
             </div>
             )}       
