@@ -31,9 +31,10 @@ function Footer() {
   }, []);
   return (
     <div className='footer'>
-
-      <div>
-        <h2  >Got an idea or a project? Let's Talk</h2>
+      <div className='head-flex'>
+        <div className='hero-head'>
+          <h2 data-animation="paragraph" >Let’s create standout digital experiences together!</h2> 
+        </div>
       </div>
       
       <span>emmanuelakharia@gmail.com</span>

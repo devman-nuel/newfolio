@@ -1,0 +1,87 @@
+.skill {
+    background: #131315;
+    padding: 0 10%;
+    padding-top: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    color: #aaa;
+    font-family: 'Monument-Regular';
+    align-items: flex-start;/* Ensures cards stretch equally */
+}
+
+.skill-card, .strength-card {
+    background: #292929;
+    max-width: 350px;
+    padding: 5px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allows both cards to grow equally */
+}
+
+.skill-con, .strength-con {
+    background: #131315;
+    padding: 20px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    height: 100%; /* Make sure content fills the card height */
+}
+
+.skill-con p, .strength-con p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.skills, .strengths {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.skills span, .strengths span {
+    background: #292929;
+    color: #E8E8E8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:900px){
+  .skill{
+    padding: 0 7%;
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 40px;
+  }  
+
+  .skill-card, .strength-card {
+    background: #292929;
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allows both cards to grow equally */
+ }
+
+ .skill-con p, .strength-con p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.skills, .strengths {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+}

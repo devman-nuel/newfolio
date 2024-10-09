@@ -1,30 +1,37 @@
 .cta{
-    margin-top: 100px;
-    text-align: center;
+    padding: 0 10%;
+    padding-top: 100px;
+    margin: 0 auto;
+    overflow: hidden; /* Prevent overflow */
+    display: flex;
+    font-family:'Monument-Regular';
+    gap: 100px;
+    background: #131315;
+    color: #aaa;
 }
 
-.cta span{
-    font-size: 24px;
-    font-family:'Satoshi-Medium'; 
+.cta-head{
+  width: 100%;  
 }
-.cta h2{
-    font-size: 40px;
-    font-family:'Monument-Bold';
-    margin: 20px 0;
+
+.cta-body{
+  width: 100%;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 @media screen and (max-width:900px){
     .cta{
-        margin-top: 80px;
-        text-align: center;
+        padding: 0 7%;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
-    
-    .cta span{
-        font-size: 16px;
-        font-family:'Satoshi-Medium'; 
-    }
-    .cta h2{
-        font-size: 56px;
-        font-family:'Satoshi-Bold';
+
+    .cta-body{
+      width: 100%;
+      font-size: 10px;
+      line-height: 24px;
     }
 }

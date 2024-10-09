@@ -40,12 +40,12 @@
 }
 
 .nav-btn button{
-    background: #292929;
-    color: #E8E8E8;
+  background: #131315;
+  border: 2px solid #292929;
+  color: #E8E8E8;
   font-family:'Monument-Regular';
   padding: 12px 20px;
   border-radius: 60px;
-  border: none;
   cursor: pointer;
   transition: all ease-in 0.3s;
   letter-spacing: 1.5px;
@@ -53,7 +53,7 @@
 }
 
 .nav-btn button:hover{
-    background: #424242; 
+    background: #19191b; 
 }
 
 /* Menu toggle (hamburger) - Hidden on larger devices by default */
@@ -131,7 +131,7 @@
 
 @media screen and (max-width:900px){
     .navbar{
-        padding: 1em;
+        padding: 1em 7%;
     }  
 
     .nav-item{

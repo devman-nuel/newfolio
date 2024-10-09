@@ -1,18 +1,20 @@
 .work {
   padding: 0 10%;
   margin: 0 auto;
-  margin-top: 100px;
+ padding-top: 100px;
+ padding-bottom: 100px;
   overflow: hidden; /* Prevent overflow */
+  background: #131315;
+  color: #aaa;
 }
 
-.work h2 {
+.work-con h2 {
   font-size: 40px;
-  font-family: 'Monument-Bold';
-  color: #E8E8E8;
+  font-family:'Monument-Regular';
   background: transparent;
 }
 
-.work h4 {
+.work-con h4 {
   margin-top: 5px;
   font-size: 14px;
   font-family:'Monument-Regular';
@@ -26,6 +28,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  background: #131315;
 }
 
 .filters button {
@@ -36,6 +39,8 @@
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: 'Monument-Regular';
   font-size: 12px;
+  background: #131315;
+  color: #aaa;
 }
 
 .filters button:hover {
@@ -106,30 +111,26 @@
 /* Media Queries for smaller screens */
 @media screen and (max-width: 900px) {
   .work {
-      margin-top: 50px;
-      padding: 0 5%;
-  }
-
-  .work-con {
-      margin-top: 30px;
+      padding: 0 7%;
+      padding-top: 60px;
   }
 
   .work-box {
       flex-direction: column;
   }
 
-  .work h2 {
+  .work-con h2 {
       font-size: 32px;
   }
 
-  .work h4 {
+  .work-con h4 {
       margin-top: 15px;
       font-size: 14px;
       
   }
 
   .filters button {
-    font-size: 12px;
+    font-size: 10px;
   }
   
 

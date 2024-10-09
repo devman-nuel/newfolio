@@ -1,21 +1,11 @@
 .footer{
   background: #412E70;
   padding: 5% 10%;
-  margin-top: 80px;
   font-family: 'Monument-Regular';
 }
 
 .footer div {
   background: #412E70;
-}
-
-.footer div h2{
-  width: 50%;
-  font-size: 40px;
-  line-height: 60px;
-  color: #A28EC9;
-  background: #412E70;
-  margin-bottom: 20px;
 }
 
 .footer span{
@@ -113,19 +103,9 @@
   @media screen and (max-width:900px){
     .footer{
       background: #412E70;
-      padding: 10% 5% ;
+      padding: 10% 7% ;
       margin-top: 80px;
       font-family: 'Monument-Regular';
-    }
-    
-    .footer div h2{
-      width: 100%;
-      font-size: 32px;
-      line-height: 44px;
-      font-family: 'Monument-Bold';
-      color: #A28EC9;
-      background: #412E70;
-      margin-bottom: 10px;
     }
     
     .footer span{

@@ -107,8 +107,10 @@ function Work() {
 
     return (
         <div className='work'>
-            <h2 data-animation="header">Selected Works (12)</h2>
+           <div className='work-con'>
+             <h2 data-animation="paragraph">Selected Works (12)</h2>
             <h4>'2022 - Till Date</h4>
+           </div>
 
             <div className='project-con'>
                 <div className="filters">
