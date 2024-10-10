@@ -10,6 +10,32 @@
     color: #aaa;
 }
 
+.cta-con{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cta-con h2{
+  font-size: 40px;
+  font-family:'Monument-Regular';
+  background: transparent;
+}
+
+.cta-con p{
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.cta-con p strong{
+  color: #f8f8f8;
+  font-family:'Monument-Regular';
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
 .cta-head{
   width: 100%;  
 }
@@ -28,6 +54,19 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+
+    .cta-con{
+      gap: 20px;
+    }
+
+    .cta-con h2{
+      font-size: 32px;
+    }
+
+    .cta-con p{
+      font-size: 16px;
+      line-height: 36px;
     }
 
     .cta-body{

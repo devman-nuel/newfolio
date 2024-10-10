@@ -13,7 +13,7 @@
 
 .skill-card, .strength-card {
     background: #292929;
-    max-width: 350px;
+   width: 100%;
     padding: 5px;
     border-radius: 40px;
     display: flex;
@@ -54,6 +54,7 @@
     font-size: 16px;
     font-family: 'Aeonik-Regular';
     line-height: 28px;
+    
 }
 
 @media screen and (max-width:900px){

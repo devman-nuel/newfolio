@@ -51,7 +51,7 @@ function Hero() {
       <div className='head-flex'>
         <div className='hero-head'>
           <h2 data-animation="paragraph"> Digital Designer & React Developer</h2>
-          <p>I craft distinctive web experiences and tackle digital challenges by offering tailored design solutions that align with your vision and objectives, using both design and code.</p>
+          <p>My name is Emmanuel, I craft web experiences and tackle digital challenges by offering tailored solutions that align with your brand/business vision and objectives, using both design and code.</p>
         </div>
 
         <div className='hero-text'>

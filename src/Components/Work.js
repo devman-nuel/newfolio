@@ -8,8 +8,8 @@ const projects = [
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728357085/Frame_2462_1_pfomv7.jpg', 
         category: 'Websites', 
         path: 'https://www.bsbtheagency.com/', 
-        alt: 'Wultz',
-        description: { p: 'BSB MANAGEMENT', span: 'Design & Development' }
+        alt: 'BSBTheAgency',
+        description: { p: 'BSB MANAGEMENT', span: 'Agency Website' }
     },
     { 
         id: 2, 
@@ -17,7 +17,7 @@ const projects = [
         category: 'Websites', 
         path: '', 
         alt: 'Stally',
-        description: { p: 'KLUVAX', span:'Design & Development' }
+        description: { p: 'KLUVAX', span:'Fintech Website' }
     },
     { 
         id: 5, 
@@ -25,7 +25,7 @@ const projects = [
         category: 'App Design', 
         path: '', 
         alt: 'Kuda',
-        description: { p: 'TRAVELMETA', span: 'App Design' }
+        description: { p: 'TRAVELDEESTRO', span: 'Travel App Design' }
     },
     { 
         id: 6, 
@@ -33,7 +33,7 @@ const projects = [
         category: 'App Design', 
         path: '', 
         alt: 'MobileX',
-        description: { p: 'COLLEC3DIBLES', span: 'App Design' }
+        description: { p: 'COLLEC3DIBLES', span: 'Saas Design' }
     },
     { 
         id: 9, 
@@ -41,7 +41,7 @@ const projects = [
         category: 'Web apps', 
         path: '', 
         alt: 'SMARTWAVE',
-        description: { p: 'SMARTWAVE', span: 'Web App Design' }
+        description: { p: 'SMARTWAVE', span: 'Dashboard Design' }
     },
     { 
         id: 10, 
@@ -49,7 +49,7 @@ const projects = [
         category: 'Web apps', 
         path: '', 
         alt: 'FIGMA PLUGIN',
-        description: { p: 'FIGMA PLUGIN', span: 'Web App Design' }
+        description: { p: 'FIGMA PLUGIN', span: 'Web App' }
     }
 ];
 
