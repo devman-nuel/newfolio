@@ -53,8 +53,10 @@
     overflow: hidden;
 }
 
+
 .insight-2022 {
     width: 100%;
+    transition: opacity 1s ease-in-out;
 }
 
 .insight-2022 img{

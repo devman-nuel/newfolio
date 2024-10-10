@@ -15,15 +15,17 @@ function Hero() {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const imagesRef = useRef(null);
+  const [hasAnimated, setHasAnimated] = useState(false); // Track if animation has occurred
 
   useEffect(() => {
-    // Change image every 2 seconds
+    // Image rotation logic
     const interval = setInterval(() => {
       setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-    }, 1000);
+    }, 2000); // Adjusted the timing for a more comfortable experience
 
-    // GSAP animation for images
+    // GSAP animation logic
     const imagesElement = imagesRef.current;
+
     const animateImages = () => {
       gsap.fromTo(
         imagesElement,
@@ -31,20 +33,23 @@ function Hero() {
         {
           y: 0, // Final state
           opacity: 1,
-          duration: 1.6, // Duration of the animation
-          ease: "power3.out" // Easing for smooth transition
+          duration: 1.6,
+          ease: "power3.out",
         }
       );
     };
 
-    // Apply animation when images come into view
-    IO(imagesElement, { threshold: 0.5 }).then(() => {
-      animateImages();
-    });
+    // Apply animation only the first time the component comes into view
+    if (!hasAnimated) {
+      IO(imagesElement, { threshold: 0.5 }).then(() => {
+        animateImages();
+        setHasAnimated(true); // Mark animation as triggered
+      });
+    }
 
-    // Cleanup interval on unmount
+    // Cleanup the interval on component unmount
     return () => clearInterval(interval);
-  }, [images.length]); // Add images.length as a dependency
+  }, [currentImageIndex, images.length, hasAnimated]); // Ensure effect runs on image change
 
   return (
     <div className='hero'>
