@@ -27,6 +27,7 @@
 .cta-con p{
   font-size: 18px;
   line-height: 38px;
+  font-family:'Monument-Regular';
 }
 
 .cta-con p strong{
@@ -42,8 +43,8 @@
 
 .cta-body{
   width: 100%;
-  font-size: 16px;
-  font-family: 'Aeonik-Regular';
+  font-size: 12px;
+  font-family:'Monument-Regular';
   line-height: 28px;
 }
 
@@ -71,7 +72,7 @@
 
     .cta-body{
       width: 100%;
-      font-size: 14px;
-      line-height: 22px;
+      font-size: 12px;
+      line-height: 24px;
     }
 }

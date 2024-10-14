@@ -91,7 +91,7 @@
     font-family: 'Monument-Regular';
     line-height: 28px;
     margin-bottom: 10px;
-  letter-spacing: 1.5px;
+   letter-spacing: 1.5px;
 }
 
 .view-project{
@@ -107,11 +107,90 @@
   font-family: 'Aeonik-Regular';
 }
 
-.view-project a{
+.view-project button{
+  background: transparent;
   color: #aaa;
   font-family: 'Aeonik-Regular';
   text-decoration: underline;
+  border: none;
+  cursor: pointer;
 }
+
+/* General styles for work section */
+
+
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #131315;
+  border: 2px solid #292929;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  width: 400px;
+  max-width: 85%;
+  font-family: 'Monument-Regular';
+  font-weight: 200;
+  
+}
+
+.modal-content h2 {
+  font-size: 14px;
+  margin-top: 30px;
+  color: #f8f8ff;
+  font-weight: 300;
+}
+
+.modal-content p {
+  margin-top: 30px;
+  font-size: 10px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.modal-content a {
+  width: 100%;
+  display: inline-block;
+  padding: 14px 0;
+  background-color: #1f1e1e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 200;
+  transition: all ease-in 0.3s;
+}
+
+.modal-content a:hover {
+  background-color: #242323;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: 'Aeonik-Regular';
+  font-weight: 500;
+  background-color: #1f1e1e;
+  padding: 1px 6px ;
+  border-radius: 2px;
+}
+
 
 
 

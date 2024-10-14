@@ -1,5 +1,4 @@
-import React, { useState } from 'react'; 
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './Work.css';
 
 const projects = [
@@ -9,15 +8,17 @@ const projects = [
         category: 'Websites', 
         path: 'https://www.bsbtheagency.com/', 
         alt: 'BSBTheAgency',
-        description: { p: 'BSB MANAGEMENT', span: 'Agency Website' }
+        description: { p: 'BSB MANAGEMENT', span: 'Agency Website' },
+        details: 'BSB is a top-tier agency providing management services to artists and music producers, focusing on fostering their growth and exposure.'
     },
     { 
         id: 2, 
-        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
+        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728899492/Frame_1707479689_1_vaz05m.jpg', 
         category: 'Websites', 
         path: '', 
         alt: 'Stally',
-        description: { p: 'KLUVAX', span:'Fintech Website' }
+        description: { p: 'Devlender', span: 'Saas Landing Page' },
+        details: 'Devlender offers solutions for developers to streamline project hosting and management with an intuitive SaaS platform.'
     },
     { 
         id: 5, 
@@ -25,7 +26,8 @@ const projects = [
         category: 'App Design', 
         path: '', 
         alt: 'Kuda',
-        description: { p: 'TRAVELDEESTRO', span: 'Travel App Design' }
+        description: { p: 'TRAVELDEESTRO', span: 'Travel App Design' },
+        details: 'TravelDeestro is a cutting-edge travel app designed to help users discover destinations and book seamless trips.'
     },
     { 
         id: 6, 
@@ -33,7 +35,8 @@ const projects = [
         category: 'App Design', 
         path: '', 
         alt: 'MobileX',
-        description: { p: 'COLLEC3DIBLES', span: 'Saas Design' }
+        description: { p: 'COLLEC3DIBLES', span: 'Saas Design' },
+        details: 'Collect3Dibles is a SaaS platform that enables users to create and manage digital collections of 3D assets and artworks.'
     },
     { 
         id: 9, 
@@ -41,7 +44,8 @@ const projects = [
         category: 'Web apps', 
         path: '', 
         alt: 'SMARTWAVE',
-        description: { p: 'SMARTWAVE', span: 'Dashboard Design' }
+        description: { p: 'SMARTWAVE', span: 'Dashboard Design' },
+        details: 'Smartwave is a dashboard platform providing an overview of user data in real-time for businesses and organizations.'
     },
     { 
         id: 10, 
@@ -49,13 +53,24 @@ const projects = [
         category: 'Web apps', 
         path: '', 
         alt: 'FIGMA PLUGIN',
-        description: { p: 'FIGMA PLUGIN', span: 'Web App' }
+        description: { p: 'FIGMA PLUGIN', span: 'Web App' },
+        details: 'A Figma Plugin designed to enhance team collaboration by integrating web-based design elements directly into the interface.'
     }
 ];
 
 function Work() {
     const [filter, setFilter] = useState('All');
+    const [selectedProject, setSelectedProject] = useState(null);
+
     const filteredProjects = filter === 'All' ? projects : projects.filter(project => project.category === filter);
+
+    const openModal = (project) => {
+        setSelectedProject(project);
+    };
+
+    const closeModal = () => {
+        setSelectedProject(null);
+    };
 
     return (
         <div className='work'>
@@ -64,7 +79,7 @@ function Work() {
              <h4>2022 - Till Date</h4>
            </div>
 
-            <div className='project-con'>
+           <div className='project-con'>
                 <div className="filters">
                     <button className={filter === 'All' ? 'active' : ''} onClick={() => setFilter('All')}>All</button>
                     <button className={filter === 'Websites' ? 'active' : ''} onClick={() => setFilter('Websites')}>Websites</button>
@@ -75,29 +90,40 @@ function Work() {
                 <div className='main-grid'>
                     {filteredProjects.map(project => (
                         <div key={project.id} className='grid-card'>
-                            <Link to={project.path}>
-                                <img src={project.src} alt={project.alt} loading="lazy" />
-                            </Link>
+                            <img src={project.src} alt={project.alt} loading="lazy" />
                             <div className='pro-con'>
                                 <div className='pro-text'>
                                     <p>{project.description.p}</p>
                                 </div>
-
                                 <div className='view-project'>
                                     <span>{project.description.span}</span>
-                                    {project.path ? (
-                                        <a href={project.path} target="_blank" rel="noopener noreferrer">
-                                            View Project
-                                        </a>
-                                    ) : (
-                                        <span>Coming Soon</span>
-                                    )}
+                                    <button onClick={() => openModal(project)}>
+                                        View Details
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
+
+            {/* Modal */}
+            {selectedProject && (
+                <div className='modal'>
+                    <div className='modal-content'>
+                        <span className='close' onClick={closeModal}>&times;</span>
+                        <h2>{selectedProject.description.p}</h2>
+                        <p>{selectedProject.details}</p>
+                        {selectedProject.path ? (
+                            <a href={selectedProject.path} target="_blank" rel="noopener noreferrer">
+                                View Project
+                            </a>
+                        ) : (
+                            <p>Coming Soon</p>
+                        )}
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

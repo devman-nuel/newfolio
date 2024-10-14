@@ -32,9 +32,9 @@
 }
 
 .skill-con p, .strength-con p {
-    font-size: 16px;
-    font-family: 'Aeonik-Regular';
-    line-height: 28px;
+    font-size: 12px;
+    font-family: 'Monument-Regular';
+    line-height: 24px;
 }
 
 .skills, .strengths {
@@ -42,8 +42,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 12px;
-    line-height: 24px;
 }
 
 .skills span, .strengths span {
@@ -51,10 +49,11 @@
     color: #E8E8E8;
     padding: 20px;
     border-radius: 20px;
-    font-size: 16px;
-    font-family: 'Aeonik-Regular';
-    line-height: 28px;
+    font-size: 11px;
+    font-family: 'Monument-Regular';
+    line-height: 24px;
     border: 1px solid #3b3b3b;
+    font-weight: lighter;
 
     /* Initial state for GSAP animation */
     opacity: 0;
@@ -80,7 +79,7 @@
     }
 
     .skill-con p, .strength-con p {
-        font-size: 16px;
+        font-size: 12px;
         margin-top: 10px;
     }
 
@@ -89,7 +88,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 24px;
     }
 }
