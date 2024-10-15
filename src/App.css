@@ -8,22 +8,6 @@
 
 
 
-
-@font-face {
-  font-family: 'Aeonik-Bold';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/AeonikTRIAL-Bold.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Aeonik-Regular';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/AeonikTRIAL-Regular.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Aeonik-Light';
-  src: url(./Fonts/Satoshi_Complete/Fonts/OTF/AeonikTRIAL-Light.otf) format('opentype');
-}
-
 @font-face {
   font-family: 'Monument-Bold';
   src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Ultrabold.otf) format('opentype');
@@ -33,5 +17,8 @@
   font-family: 'Monument-Regular';
   src: url(./Fonts/Satoshi_Complete/Fonts/OTF/MonumentExtended-Regular.otf) format('opentype');
 }
+
+
+
 
 
