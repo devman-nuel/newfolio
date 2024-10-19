@@ -56,6 +56,11 @@
     background: #19191b; 
 }
 
+.nav-btn button a{
+  width: 100%;
+  color: #E8E8E8;
+}
+
 /* Menu toggle (hamburger) - Hidden on larger devices by default */
 .menu-toggle {
     display: none;
@@ -176,7 +181,7 @@
     font-size: 14px;
   }
 
-  .menu-con h2{
+  .menu-con a{
     background: transparent;
     color: #e4e4e4;
   }

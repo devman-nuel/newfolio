@@ -22,7 +22,9 @@ const Navbar = () => {
                 </div>
 
                <div className='nav-btn'>
-                <button>Get in touch</button>
+                <button>
+                  <a href="mailto:emmanuelakharia@gmail.com" target="_blank" rel="noopener noreferrer">Get in touch</a>        
+                </button>
                </div>   
 
                 <div className='menu-toggle' onClick={toggleMenu}>
@@ -37,10 +39,9 @@ const Navbar = () => {
             <div className="fixed-component">
                 <div className='menu-con'>
                 <p>MENU</p>
-                <h2>Dribble</h2>
-                <h2>Linkedin</h2>
-                <h2>Twitter</h2>
-             
+                <a href="" target="_blank" rel="noopener noreferrer">Dribble</a>
+                <a href="" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a href="" target="_blank" rel="noopener noreferrer">Twitter</a> 
                 <button>Get in touch</button>
                 </div>
             </div>

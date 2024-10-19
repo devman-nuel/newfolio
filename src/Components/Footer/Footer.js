@@ -37,16 +37,18 @@ function Footer() {
         </div>
       </div>
       
-      <button className='send-btn'>Send mail</button>
+      <button className='send-btn'>
+         <a href="mailto:emmanuelakharia@gmail.com" target="_blank" rel="noopener noreferrer">Send mail</a>   
+      </button>
 
       <div className='footer-con'>
          <div>
           <span>SOCIAL MEDIA</span>
           <div className='footer-links'>
-            <Link className='fliptext' data-hover="GITHUB" to="https://github.com/vibeauratech">GITHUB</Link>
-            <Link className='fliptext' data-hover="LINKEDIN" to="https://www.linkedin.com/in/emmanuel-akharia-7a8ab0245/">LINKEDIN</Link>
-            <Link className='fliptext' data-hover="TWITTER" to="https://twitter.com/nuel_dev">TWITTER</Link>
-            <Link className='fliptext' data-hover="DRIBBLE" to="https://dribbble.com/Akharia">DRIBBLE</Link>
+            <Link className='fliptext' data-hover="GITHUB" to="https://github.com/vibeauratech" target="_blank" rel="noopener noreferrer">GITHUB</Link>
+            <Link className='fliptext' data-hover="LINKEDIN" to="https://www.linkedin.com/in/emmanuel-akharia-7a8ab0245/" target="_blank" rel="noopener noreferrer">LINKEDIN</Link>
+            <Link className='fliptext' data-hover="TWITTER" to="https://x.com/devMan_nuel" target="_blank" rel="noopener noreferrer">TWITTER</Link>
+            <Link className='fliptext' data-hover="DRIBBLE" to="https://dribbble.com/devman_nuel" target="_blank" rel="noopener noreferrer">DRIBBLE</Link>
           </div>  
          </div>
 

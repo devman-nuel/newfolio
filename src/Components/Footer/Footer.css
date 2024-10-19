@@ -20,6 +20,11 @@
   margin-top: 20px;
 }
 
+.send-btn a{
+  width: 100%;
+  color: #412E70;
+}
+
 .footer span{
   background: #412E70;
   color: #A28EC9;
