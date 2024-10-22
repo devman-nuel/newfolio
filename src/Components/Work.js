@@ -15,10 +15,10 @@ const projects = [
         id: 2, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728899492/Frame_1707479689_1_vaz05m.jpg', 
         category: 'Websites', 
-        path: '', 
-        alt: 'Stally',
+        path: 'https://www.devlender-saas.vercel.app/', 
+        alt: 'devlender',
         description: { p: 'Devlender', span: 'Saas Landing Page' },
-        details: 'Devlender offers solutions for developers to streamline project hosting and management with an intuitive SaaS platform.'
+        details: 'Landing Page for a Saas Calendar app. Devlender streamlines your scheduling, ensuring you never miss an important date again.'
     },
     { 
         id: 5, 
@@ -40,12 +40,12 @@ const projects = [
     },
     { 
         id: 9, 
-        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
+        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1729621919/Frame_1707479724_1_t4zwaj.jpg', 
         category: 'Web apps', 
-        path: '', 
-        alt: 'SMARTWAVE',
-        description: { p: 'SMARTWAVE', span: 'Dashboard Design' },
-        details: 'Smartwave is a dashboard platform providing an overview of user data in real-time for businesses and organizations.'
+        path: 'https://transmoot.netlify.app/', 
+        alt: 'Transmoot',
+        description: { p: 'TRANSMOOT', span: 'Media Tool' },
+        details: 'Transform your ideas into stunning visual content with Transmoot. Discover the ultimate media tool designed to amplify your creativity and craft compelling experiences effortlessly.'
     },
     { 
         id: 10, 

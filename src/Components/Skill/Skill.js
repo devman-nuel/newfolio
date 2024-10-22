@@ -44,7 +44,7 @@ function Skill() {
     <div className='skill'>
       <div className='skill-card'>
         <div className='skill-con'>
-          <p>Core & Interests</p>
+          <p>Core Skillset & Interests</p>
           <div className='skills' ref={coreSkillsRef}>
             <span>Product Design.</span>
             <span>User Research</span>

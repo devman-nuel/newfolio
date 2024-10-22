@@ -49,11 +49,11 @@
     color: #E8E8E8;
     padding: 20px;
     border-radius: 20px;
-    font-size: 11px;
+    font-size: 10px;
     font-family: 'Monument-Regular';
     line-height: 24px;
     border: 1px solid #3b3b3b;
-    font-weight: lighter;
+    font-weight: 100;
 
     /* Initial state for GSAP animation */
     opacity: 0;
