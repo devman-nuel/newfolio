@@ -39,9 +39,9 @@ const Navbar = () => {
             <div className="fixed-component">
                 <div className='menu-con'>
                 <p>MENU</p>
-                <a href="" target="_blank" rel="noopener noreferrer">Dribble</a>
-                <a href="" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                <a href="" target="_blank" rel="noopener noreferrer">Twitter</a> 
+                <a href="https://dribbble.com/devman_nuel" target="_blank" rel="noopener noreferrer">Dribble</a>
+                <a href="https://github.com/vibeauratech" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://www.linkedin.com/in/emmanuel-akharia-7a8ab0245/" target="_blank" rel="noopener noreferrer">Linkedin</a>
                 <button>Get in touch</button>
                 </div>
             </div>
