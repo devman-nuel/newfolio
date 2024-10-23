@@ -226,6 +226,11 @@
     margin-bottom: 10px;
     letter-spacing: 1.5px;
   }
+
+  .view-project span{
+    font-size: 10px;
+    font-family:'Monument-Regular';
+  }
   
   .pro-text span{
     font-size: 10px;
