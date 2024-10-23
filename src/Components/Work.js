@@ -22,20 +22,20 @@ const projects = [
     },
     { 
         id: 5, 
-        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
-        category: 'App Design', 
+        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1729654674/Frame_1707479764_1_hu3t9n.jpg', 
+        category: 'Websites', 
         path: '', 
         alt: 'Kuda',
-        description: { p: 'TRAVELDEESTRO', span: 'Travel App Design' },
+        description: { p: 'Plantaura', span: 'Green Life Website' },
         details: 'TravelDeestro is a cutting-edge travel app designed to help users discover destinations and book seamless trips.'
     },
     { 
         id: 6, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
-        category: 'App Design', 
+        category: 'Websites', 
         path: '', 
         alt: 'MobileX',
-        description: { p: 'COLLEC3DIBLES', span: 'Saas Design' },
+        description: { p: 'Edge AI', span: 'AI Media Tool' },
         details: 'Collect3Dibles is a SaaS platform that enables users to create and manage digital collections of 3D assets and artworks.'
     },
     { 
@@ -50,7 +50,7 @@ const projects = [
     { 
         id: 10, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
-        category: 'Web apps', 
+        category: 'App Design', 
         path: '', 
         alt: 'FIGMA PLUGIN',
         description: { p: 'FIGMA PLUGIN', span: 'Web App' },
