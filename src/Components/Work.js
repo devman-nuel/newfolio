@@ -24,19 +24,19 @@ const projects = [
         id: 5, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1729654674/Frame_1707479764_1_hu3t9n.jpg', 
         category: 'Websites', 
-        path: '', 
-        alt: 'Kuda',
+        path: 'https://www.plantaura.vercel.app/', 
+        alt: 'Plantaura',
         description: { p: 'Plantaura', span: 'Green Life Website' },
-        details: 'TravelDeestro is a cutting-edge travel app designed to help users discover destinations and book seamless trips.'
+        details: 'Plantaura is committed to promoting sustainable living and environmental stewardship. We believe in creating a healthier planet through innovative eco-friendly solutions, supporting green projects, and raising awareness about sustainability.'
     },
     { 
         id: 6, 
-        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728354235/Frame_2462_1_nsg2va.jpg', 
+        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1729838703/Frame_1707479768_1_x4uuub.jpg', 
         category: 'Websites', 
-        path: '', 
+        path: 'https://www.askedgeai.com/', 
         alt: 'MobileX',
         description: { p: 'Edge AI', span: 'AI Media Tool' },
-        details: 'Collect3Dibles is a SaaS platform that enables users to create and manage digital collections of 3D assets and artworks.'
+        details: 'Experience the future with Edge AI – Your AI friend and creative partner. Chat, create, and explore, powered by GPT-4 and SDXL technology.'
     },
     { 
         id: 9, 
