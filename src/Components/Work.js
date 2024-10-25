@@ -4,7 +4,7 @@ import './Work.css';
 const projects = [
     { 
         id: 1, 
-        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728357085/Frame_2462_1_pfomv7.jpg', 
+        src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1729847533/Frame_1707479769_1_aia2de.jpg', 
         category: 'Websites', 
         path: 'https://www.bsbtheagency.com/', 
         alt: 'BSBTheAgency',
