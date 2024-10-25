@@ -15,7 +15,7 @@ const projects = [
         id: 2, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728899492/Frame_1707479689_1_vaz05m.jpg', 
         category: 'Websites', 
-        path: 'https://www.devlender-saas.vercel.app/', 
+        path: 'https://www.devlender.vercel.app/', 
         alt: 'devlender',
         description: { p: 'Devlender', span: 'Saas Landing Page' },
         details: 'Landing Page for a Saas Calendar app. Devlender streamlines your scheduling, ensuring you never miss an important date again.'
