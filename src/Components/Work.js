@@ -15,7 +15,7 @@ const projects = [
         id: 2, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1728899492/Frame_1707479689_1_vaz05m.jpg', 
         category: 'Websites', 
-        path: 'https://www.devlender.vercel.app/', 
+        path: 'https://devlender.vercel.app/', 
         alt: 'devlender',
         description: { p: 'Devlender', span: 'Saas Landing Page' },
         details: 'Landing Page for a Saas Calendar app. Devlender streamlines your scheduling, ensuring you never miss an important date again.'
@@ -24,7 +24,7 @@ const projects = [
         id: 5, 
         src: 'https://res.cloudinary.com/dxnukbo0u/image/upload/v1729654674/Frame_1707479764_1_hu3t9n.jpg', 
         category: 'Websites', 
-        path: 'https://www.plantaura.vercel.app/', 
+        path: 'https://plantaura.vercel.app/', 
         alt: 'Plantaura',
         description: { p: 'Plantaura', span: 'Green Life Website' },
         details: 'Plantaura is committed to promoting sustainable living and environmental stewardship. We believe in creating a healthier planet through innovative eco-friendly solutions, supporting green projects, and raising awareness about sustainability.'
